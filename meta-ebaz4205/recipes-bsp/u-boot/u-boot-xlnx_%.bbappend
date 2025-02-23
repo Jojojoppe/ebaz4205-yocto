@@ -1,4 +1,4 @@
-FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
+FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
-SRC_URI += "file://0001-ebaz4205-added-files.patch"
+SRC_URI:append = "file://0001-ebaz4205-add-files.patch"
 
