@@ -9,5 +9,8 @@ do_compile:append() {
 }
 
 do_deploy:append() {
-    install -m 0644 ${B}/spl/boot.bin ${DEPLOYDIR}/boot.bin
+    install -m 0644 ${B}/spl/u-boot-spl.bin ${DEPLOYDIR}/BOOT.BIN
+    install -m 0644 ${B}/u-boot.elf ${DEPLOYDIR}/u-boot.elf
+    install -m 0644 ${B}/u-boot.img ${DEPLOYDIR}/u-boot.img
+    install -m 0644 ${B}/dts/dt.dtb ${DEPLOYDIR}/u-boot.dtb
 }
