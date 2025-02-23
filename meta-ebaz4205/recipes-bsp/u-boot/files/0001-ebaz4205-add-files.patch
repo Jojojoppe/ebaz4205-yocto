@@ -17,14 +17,11 @@ new file mode 100644
 index 0000000000..31fd4d3eb4
 --- /dev/null
 +++ b/arch/arm/dts/zynq-ebaz4205.dts
-@@ -0,0 +1,33 @@
+@@ -0,0 +1,30 @@
 +/dts-v1/;
 +#include "zynq-7000.dtsi"
 +
 +/ {
-+	model = "Zynq EBAZ4205 Board";
-+	compatible = "xlnx,zynq-ebaz4205", "xlnx,zynq-7000";
-+
 +	aliases {
 +		serial0 = &uart1;
 +		mmc0 = &sdhci0;
@@ -86,7 +83,7 @@ index 0000000000..6740d5ecbe
 +CONFIG_SYS_SOC="zynq"
 +CONFIG_SYS_VENDOR="xilinx"
 +CONFIG_SYS_BOARD="zynq"
-+CONFIG_SYS_CONFIG_NAME="zynq_cse"
++CONFIG_SYS_CONFIG_NAME="zynq-ebaz4205"
 +
 +#
 +# Skipping low level initialization functions
@@ -254,7 +251,7 @@ index 0000000000..6740d5ecbe
 +CONFIG_ENV_SIZE=0x190
 +# CONFIG_DM_GPIO is not set
 +CONFIG_SPL_DM_SPI=y
-+CONFIG_DEFAULT_DEVICE_TREE="zynq-cse-nand"
++CONFIG_DEFAULT_DEVICE_TREE="zynq-ebaz4205"
 +CONFIG_SPL_TEXT_BASE=0x0
 +# CONFIG_OF_LIBFDT_OVERLAY is not set
 +CONFIG_MULTI_DTB_FIT_UNCOMPRESS_SZ=0x8000
@@ -827,9 +824,9 @@ index 0000000000..6740d5ecbe
 +# CONFIG_OF_BOARD is not set
 +# CONFIG_OF_OMIT_DTB is not set
 +CONFIG_DEVICE_TREE_INCLUDES=""
-+CONFIG_OF_LIST="zynq-cse-nand"
++CONFIG_OF_LIST="zynq-ebaz4205"
 +# CONFIG_MULTI_DTB_FIT is not set
-+CONFIG_SPL_OF_LIST="zynq-cse-nand"
++CONFIG_SPL_OF_LIST="zynq-ebaz4205"
 +CONFIG_OF_TAG_MIGRATE=y
 +CONFIG_OF_SPL_REMOVE_PROPS="pinctrl-0 pinctrl-names interrupt-parent interrupts"
 +# CONFIG_OF_DTB_PROPS_REMOVE is not set
@@ -1310,7 +1307,7 @@ index 0000000000..6740d5ecbe
 +CONFIG_SPL_DM_SERIAL=y
 +# CONFIG_VPL_DM_SERIAL is not set
 +CONFIG_DEBUG_UART_ZYNQ=y
-+CONFIG_SPL_DEBUG_UART_BASE=0xe0000000
++CONFIG_SPL_DEBUG_UART_BASE=0xe0001000
 +CONFIG_DEBUG_UART_SHIFT=0
 +CONFIG_DEBUG_UART_ANNOUNCE=y
 +# CONFIG_DEBUG_UART_SKIP_INIT is not set
@@ -1652,11 +1649,11 @@ index 0000000000..6740d5ecbe
 +# CONFIG_TOOLS_MKEFICAPSULE is not set
 +# CONFIG_FSPI_CONF_HEADER is not set
 +# CONFIG_TOOLS_MKFWUMDATA is not set
-diff --git a/include/configs/zynq_ebaz4205.h b/include/configs/zynq_ebaz4205.h
+diff --git a/include/configs/zynq-ebaz4205.h b/include/configs/zynq-ebaz4205.h
 new file mode 100644
 index 0000000000..8d7403cd59
 --- /dev/null
-+++ b/include/configs/zynq_ebaz4205.h
++++ b/include/configs/zynq-ebaz4205.h
 @@ -0,0 +1,42 @@
 +/* SPDX-License-Identifier: GPL-2.0+ */
 +/*
