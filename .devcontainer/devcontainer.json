@@ -1,4 +1,18 @@
 {
     "image": "mcr.microsoft.com/devcontainers/base:debian",
-    "updateRemoteUserUID": true
+    "remoteUser": "vscode",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "yocto-project.yocto-bitbake",
+                "mads-hartmann.bash-ide-vscode",
+                "ms-python.vscode-pylance",
+                "ms-python.python",
+                "ms-python.debugpy"
+            ]
+        }
+    },
+    "mounts": [
+        "source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
+    ]
 }

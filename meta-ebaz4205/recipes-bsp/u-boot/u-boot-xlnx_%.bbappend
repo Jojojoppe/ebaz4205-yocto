@@ -1,7 +1,4 @@
-FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
+FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
 
-UBOOT_MACHINE = "zynq_ebaz4205_defconfig"
+SRC_URI += "file://0001-ebaz4205-added-files.patch"
 
-SRC_URI:append = " \
-    file://0001-ebaz4205_defconfig.patch \
-    "
