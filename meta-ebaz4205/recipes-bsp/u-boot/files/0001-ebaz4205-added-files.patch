@@ -1,14 +1,14 @@
-From 9fdf6d734c0d090b75869fb110cd6896fe45ab11 Mon Sep 17 00:00:00 2001
+From ed53ca72dc8cbfed2f81c8282365a32746af4fec Mon Sep 17 00:00:00 2001
 From: Jojojoppe <joppe@blondel.nl>
-Date: Sun, 23 Feb 2025 19:11:26 +0000
-Subject: [PATCH] ebaz4205: add files
+Date: Sun, 23 Feb 2025 20:22:27 +0000
+Subject: [PATCH] ebaz4205: added files
 
 ---
  arch/arm/dts/Makefile           |    1 +
  arch/arm/dts/zynq-ebaz4205.dts  |   33 +
- configs/zynq_ebaz4205_defconfig | 1595 +++++++++++++++++++++++++++++++
+ configs/zynq_ebaz4205_defconfig | 1419 +++++++++++++++++++++++++++++++
  include/configs/zynq-ebaz4205.h |   42 +
- 4 files changed, 1671 insertions(+)
+ 4 files changed, 1495 insertions(+)
  create mode 100644 arch/arm/dts/zynq-ebaz4205.dts
  create mode 100644 configs/zynq_ebaz4205_defconfig
  create mode 100644 include/configs/zynq-ebaz4205.h
@@ -27,7 +27,7 @@ index 48ca62521b..7207ef6100 100644
  	zynq-picozed.dtb \
 diff --git a/arch/arm/dts/zynq-ebaz4205.dts b/arch/arm/dts/zynq-ebaz4205.dts
 new file mode 100644
-index 0000000000..4c34f278ff
+index 0000000000..09dbdcd23f
 --- /dev/null
 +++ b/arch/arm/dts/zynq-ebaz4205.dts
 @@ -0,0 +1,33 @@
@@ -55,21 +55,21 @@ index 0000000000..4c34f278ff
 +};
 +
 +&uart1 {
-+	bootph-all;
++	u-boot,dm-spl;
 +	status = "okay";
 +};
 +
 +&sdhci0 {
-+	bootph-all;
++	u-boot,dm-spl;
 +	status = "okay";
 +};
 +
 diff --git a/configs/zynq_ebaz4205_defconfig b/configs/zynq_ebaz4205_defconfig
 new file mode 100644
-index 0000000000..0c1ac12a15
+index 0000000000..d2397c5d8c
 --- /dev/null
 +++ b/configs/zynq_ebaz4205_defconfig
-@@ -0,0 +1,1595 @@
+@@ -0,0 +1,1419 @@
 +#
 +# Automatically generated file; DO NOT EDIT.
 +# U-Boot 2024.01 Configuration
@@ -104,15 +104,10 @@ index 0000000000..0c1ac12a15
 +#
 +# Skipping low level initialization functions
 +#
-+# CONFIG_SKIP_LOWLEVEL_INIT=y
-+# CONFIG_SPL_SKIP_LOWLEVEL_INIT=y
-+# CONFIG_TPL_SKIP_LOWLEVEL_INIT is not set
++# CONFIG_SKIP_LOWLEVEL_INIT is not set
 +# CONFIG_SKIP_LOWLEVEL_INIT_ONLY is not set
-+# CONFIG_SPL_SKIP_LOWLEVEL_INIT_ONLY is not set
-+# CONFIG_SYS_ICACHE_OFF=y
-+# CONFIG_SPL_SYS_ICACHE_OFF=y
-+# CONFIG_SYS_DCACHE_OFF=y
-+# CONFIG_SPL_SYS_DCACHE_OFF=y
++# CONFIG_SYS_ICACHE_OFF is not set
++# CONFIG_SYS_DCACHE_OFF is not set
 +
 +#
 +# ARM architecture
@@ -136,15 +131,12 @@ index 0000000000..0c1ac12a15
 +# CONFIG_SYS_ARCH_TIMER is not set
 +# CONFIG_ARM_SMCCC is not set
 +# CONFIG_SYS_THUMB_BUILD is not set
-+# CONFIG_SPL_SYS_THUMB_BUILD is not set
 +# CONFIG_SYS_L2_PL310 is not set
 +# CONFIG_SPL_SYS_L2_PL310 is not set
 +CONFIG_SYS_L2CACHE_OFF=y
 +# CONFIG_ENABLE_ARM_SOC_BOOT0_HOOK is not set
 +CONFIG_USE_ARCH_MEMCPY=y
-+CONFIG_SPL_USE_ARCH_MEMCPY=y
 +CONFIG_USE_ARCH_MEMSET=y
-+CONFIG_SPL_USE_ARCH_MEMSET=y
 +# CONFIG_ARCH_AT91 is not set
 +# CONFIG_ARCH_DAVINCI is not set
 +# CONFIG_ARCH_HISTB is not set
@@ -255,32 +247,23 @@ index 0000000000..0c1ac12a15
 +CONFIG_TEXT_BASE=0x100000
 +CONFIG_SYS_MALLOC_LEN=0x8000
 +CONFIG_SYS_MALLOC_F_LEN=0x800
-+# CONFIG_SPL_GPIO is not set
 +CONFIG_SPL_LIBCOMMON_SUPPORT=y
 +CONFIG_SPL_LIBGENERIC_SUPPORT=y
 +CONFIG_NR_DRAM_BANKS=4
-+CONFIG_SPL_LDSCRIPT="arch/arm/mach-zynq/u-boot-spl.lds"
 +CONFIG_ENV_SOURCE_FILE=""
 +# CONFIG_HAS_CUSTOM_SYS_INIT_SP_ADDR is not set
 +CONFIG_SF_DEFAULT_SPEED=1000000
 +CONFIG_SF_DEFAULT_MODE=0x0
 +CONFIG_ENV_SIZE=0x4000
 +# CONFIG_DM_GPIO is not set
-+CONFIG_SPL_DM_SPI=y
 +CONFIG_DEFAULT_DEVICE_TREE="zynq-ebaz4205"
-+CONFIG_SPL_TEXT_BASE=0x0
 +# CONFIG_OF_LIBFDT_OVERLAY is not set
 +CONFIG_MULTI_DTB_FIT_UNCOMPRESS_SZ=0x8000
 +# CONFIG_DM_RESET is not set
 +CONFIG_SYS_MONITOR_LEN=0
 +CONFIG_SPL_SERIAL=y
-+# CONFIG_SPL_DRIVERS_MISC is not set
-+CONFIG_SPL_STACK_R_ADDR=0x200000
-+CONFIG_SPL_SYS_MALLOC_F=y
-+CONFIG_SPL_SYS_MALLOC_F_LEN=0x800
 +CONFIG_ERR_PTR_OFFSET=0x0
-+CONFIG_SPL_SIZE_LIMIT=0x0
-+CONFIG_SPL=y
++# CONFIG_SPL is not set
 +CONFIG_BOOTSTAGE_STASH_ADDR=0x0
 +CONFIG_DEBUG_UART_BASE=0xe0001000
 +CONFIG_DEBUG_UART_CLOCK=50000000
@@ -290,7 +273,6 @@ index 0000000000..0c1ac12a15
 +# CONFIG_CHIP_DIP_SCAN is not set
 +CONFIG_SPL_FS_FAT=y
 +CONFIG_SPL_LIBDISK_SUPPORT=y
-+# CONFIG_SPL_SPI is not set
 +CONFIG_ZYNQ_DDRC_INIT=y
 +CONFIG_BOOT_INIT_FILE=""
 +CONFIG_ZYNQ_SDHCI_MAX_FREQ=52000000
@@ -315,7 +297,6 @@ index 0000000000..0c1ac12a15
 +# ARM debug
 +#
 +# CONFIG_DEBUG_LL is not set
-+CONFIG_SPL_PAYLOAD="u-boot.bin"
 +CONFIG_BUILD_TARGET=""
 +# CONFIG_PCI is not set
 +CONFIG_FWU_NUM_BANKS=2
@@ -341,7 +322,6 @@ index 0000000000..0c1ac12a15
 +# CONFIG_CC_OPTIMIZE_FOR_SPEED is not set
 +# CONFIG_CC_OPTIMIZE_FOR_DEBUG is not set
 +# CONFIG_OPTIMIZE_INLINING is not set
-+# CONFIG_SPL_OPTIMIZE_INLINING is not set
 +CONFIG_ARCH_SUPPORTS_LTO=y
 +# CONFIG_LTO is not set
 +CONFIG_CC_HAS_ASM_INLINE=y
@@ -352,12 +332,10 @@ index 0000000000..0c1ac12a15
 +# CONFIG_VALGRIND is not set
 +CONFIG_EXPERT=y
 +CONFIG_SYS_MALLOC_CLEAR_ON_INIT=y
-+CONFIG_SPL_SYS_MALLOC_CLEAR_ON_INIT=y
 +# CONFIG_SYS_MALLOC_DEFAULT_TO_INIT is not set
 +# CONFIG_TOOLS_DEBUG is not set
 +# CONFIG_PHYS_64BIT is not set
 +# CONFIG_FDT_64BIT is not set
-+CONFIG_SPL_IMAGE="spl/u-boot-spl.bin"
 +CONFIG_REMAKE_ELF=y
 +# CONFIG_HAS_BOARD_SIZE_LIMIT is not set
 +CONFIG_SYS_CUSTOM_LDSCRIPT=y
@@ -396,7 +374,6 @@ index 0000000000..0c1ac12a15
 +# CONFIG_BOOTSTAGE is not set
 +CONFIG_BOOTSTAGE_STASH_SIZE=0x1000
 +# CONFIG_SHOW_BOOT_PROGRESS is not set
-+# CONFIG_SPL_SHOW_BOOT_PROGRESS is not set
 +
 +#
 +# Boot media
@@ -449,8 +426,7 @@ index 0000000000..0c1ac12a15
 +#
 +# CONFIG_CONSOLE_RECORD is not set
 +# CONFIG_DISABLE_CONSOLE is not set
-+CONFIG_LOGLEVEL=4
-+CONFIG_SPL_LOGLEVEL=4
++CONFIG_LOGLEVEL=7
 +# CONFIG_SILENT_CONSOLE is not set
 +# CONFIG_SPL_SILENT_CONSOLE is not set
 +# CONFIG_TPL_SILENT_CONSOLE is not set
@@ -511,87 +487,6 @@ index 0000000000..0c1ac12a15
 +#
 +# CONFIG_BLOBLIST is not set
 +CONFIG_SUPPORT_SPL=y
-+
-+#
-+# SPL configuration options
-+#
-+CONFIG_SPL_FRAMEWORK=y
-+# CONFIG_SPL_FRAMEWORK_BOARD_INIT_F is not set
-+CONFIG_SPL_MAX_SIZE=0x30000
-+CONFIG_SPL_PAD_TO=0x30000
-+CONFIG_SPL_HAS_BSS_LINKER_SECTION=y
-+CONFIG_SPL_BSS_START_ADDR=0x20000
-+# CONFIG_SPL_NO_BSS_LIMIT is not set
-+CONFIG_SPL_BSS_LIMIT=y
-+# CONFIG_SPL_FOOTPRINT_LIMIT is not set
-+CONFIG_SPL_BSS_MAX_SIZE=0x8000
-+CONFIG_SPL_SYS_STACK_F_CHECK_BYTE=0xaa
-+# CONFIG_SPL_SYS_REPORT_STACK_F_USAGE is not set
-+CONFIG_SPL_SHOW_ERRORS=y
-+CONFIG_SPL_BOARD_INIT=y
-+# CONFIG_SPL_BOOTROM_SUPPORT is not set
-+CONFIG_SPL_RAW_IMAGE_SUPPORT=y
-+CONFIG_SPL_LEGACY_IMAGE_FORMAT=y
-+# CONFIG_SPL_LEGACY_IMAGE_CRC_CHECK is not set
-+# CONFIG_SPL_LOAD_IMX_CONTAINER is not set
-+# CONFIG_SPL_SYS_MALLOC_SIMPLE is not set
-+CONFIG_SPL_SHARES_INIT_SP_ADDR=y
-+CONFIG_SPL_STACK_R=y
-+CONFIG_SPL_SEPARATE_BSS=y
-+CONFIG_SPL_SYS_MALLOC=y
-+CONFIG_SPL_HAS_CUSTOM_MALLOC_START=y
-+CONFIG_SPL_CUSTOM_SYS_MALLOC_ADDR=0x200000
-+CONFIG_SPL_SYS_MALLOC_SIZE=0x2000000
-+CONFIG_SPL_BANNER_PRINT=y
-+# CONFIG_SPL_EARLY_BSS is not set
-+# CONFIG_SPL_DISPLAY_PRINT is not set
-+CONFIG_SYS_MMCSD_RAW_MODE_U_BOOT_USE_SECTOR=y
-+CONFIG_SYS_MMCSD_RAW_MODE_U_BOOT_SECTOR=0x300
-+CONFIG_SYS_MMCSD_RAW_MODE_U_BOOT_DATA_PART_OFFSET=0x0
-+# CONFIG_SYS_MMCSD_RAW_MODE_U_BOOT_USE_PARTITION is not set
-+# CONFIG_SPL_CACHE is not set
-+# CONFIG_SPL_CPU is not set
-+# CONFIG_SPL_CRYPTO is not set
-+# CONFIG_SPL_DMA is not set
-+# CONFIG_SPL_ENV_SUPPORT is not set
-+# CONFIG_SPL_FS_EXT4 is not set
-+# CONFIG_SPL_FS_SQUASHFS is not set
-+CONFIG_SPL_FS_LOAD_PAYLOAD_NAME="u-boot.img"
-+# CONFIG_SPL_FAT_WRITE is not set
-+# CONFIG_SPL_FPGA is not set
-+# CONFIG_SPL_I2C is not set
-+# CONFIG_SPL_DM_MAILBOX is not set
-+# CONFIG_SPL_MEMORY is not set
-+# CONFIG_SPL_MPC8XXX_INIT_DDR is not set
-+# CONFIG_SPL_MTD_SUPPORT is not set
-+# CONFIG_SPL_MUSB_NEW is not set
-+# CONFIG_SPL_NAND_SUPPORT is not set
-+# CONFIG_SPL_NAND_DRIVERS is not set
-+# CONFIG_SPL_NAND_ECC is not set
-+# CONFIG_SPL_NAND_SIMPLE is not set
-+# CONFIG_SPL_UBI is not set
-+CONFIG_SPL_DM_SPI_FLASH=y
-+# CONFIG_SPL_NET is not set
-+# CONFIG_SPL_NOR_SUPPORT is not set
-+# CONFIG_SPL_XIP_SUPPORT is not set
-+# CONFIG_SPL_ONENAND_SUPPORT is not set
-+# CONFIG_SPL_OS_BOOT is not set
-+# CONFIG_SPL_PCI is not set
-+# CONFIG_SPL_PCH is not set
-+# CONFIG_SPL_POST_MEM_SUPPORT is not set
-+# CONFIG_SPL_DM_RESET is not set
-+# CONFIG_SPL_POWER is not set
-+# CONFIG_SPL_POWER_DOMAIN is not set
-+CONFIG_SPL_RAM_SUPPORT=y
-+CONFIG_SPL_RAM_DEVICE=y
-+# CONFIG_SPL_REMOTEPROC is not set
-+# CONFIG_SPL_RTC is not set
-+# CONFIG_SPL_SATA is not set
-+# CONFIG_SPL_SPI_FLASH_MTD is not set
-+# CONFIG_SPL_THERMAL is not set
-+# CONFIG_SPL_WATCHDOG is not set
-+# CONFIG_SPL_YMODEM_SUPPORT is not set
-+CONFIG_SPL_TARGET=""
 +# CONFIG_VPL is not set
 +
 +#
@@ -639,7 +534,6 @@ index 0000000000..0c1ac12a15
 +# CONFIG_CMD_IMI is not set
 +# CONFIG_CMD_IMLS is not set
 +# CONFIG_CMD_XIMG is not set
-+# CONFIG_CMD_SPL is not set
 +# CONFIG_CMD_ZBOOT is not set
 +
 +#
@@ -716,7 +610,6 @@ index 0000000000..0c1ac12a15
 +# CONFIG_CMD_NAND_TORTURE is not set
 +# CONFIG_CMD_ONENAND is not set
 +# CONFIG_CMD_OSD is not set
-+# CONFIG_CMD_PART is not set
 +# CONFIG_CMD_PCI is not set
 +# CONFIG_CMD_POWEROFF is not set
 +# CONFIG_CMD_READ is not set
@@ -814,18 +707,11 @@ index 0000000000..0c1ac12a15
 +#
 +# Partition Types
 +#
-+CONFIG_PARTITIONS=y
 +# CONFIG_MAC_PARTITION is not set
-+# CONFIG_SPL_MAC_PARTITION is not set
 +# CONFIG_DOS_PARTITION is not set
-+# CONFIG_SPL_DOS_PARTITION is not set
 +# CONFIG_ISO_PARTITION is not set
-+# CONFIG_SPL_ISO_PARTITION is not set
 +# CONFIG_AMIGA_PARTITION is not set
-+# CONFIG_SPL_AMIGA_PARTITION is not set
 +# CONFIG_EFI_PARTITION is not set
-+# CONFIG_SPL_EFI_PARTITION is not set
-+# CONFIG_PARTITION_UUIDS is not set
 +CONFIG_SUPPORT_OF_CONTROL=y
 +
 +#
@@ -833,7 +719,6 @@ index 0000000000..0c1ac12a15
 +#
 +CONFIG_OF_CONTROL=y
 +CONFIG_OF_REAL=y
-+CONFIG_SPL_OF_CONTROL=y
 +# CONFIG_OF_LIVE is not set
 +# CONFIG_OF_SEPARATE is not set
 +CONFIG_OF_EMBED=y
@@ -842,12 +727,8 @@ index 0000000000..0c1ac12a15
 +CONFIG_DEVICE_TREE_INCLUDES=""
 +CONFIG_OF_LIST="zynq-ebaz4205"
 +# CONFIG_MULTI_DTB_FIT is not set
-+CONFIG_SPL_OF_LIST="zynq-ebaz4205"
 +CONFIG_OF_TAG_MIGRATE=y
-+CONFIG_OF_SPL_REMOVE_PROPS="pinctrl-0 pinctrl-names interrupt-parent interrupts"
 +# CONFIG_OF_DTB_PROPS_REMOVE is not set
-+# CONFIG_SPL_OF_PLATDATA is not set
-+CONFIG_SPL_OF_REAL=y
 +
 +#
 +# Environment
@@ -890,26 +771,18 @@ index 0000000000..0c1ac12a15
 +# Generic Driver Options
 +#
 +CONFIG_DM=y
-+CONFIG_SPL_DM=y
 +# CONFIG_DM_WARN is not set
-+# CONFIG_SPL_DM_WARN is not set
 +# CONFIG_DM_DEBUG is not set
 +# CONFIG_DM_STATS is not set
 +# CONFIG_DM_DEVICE_REMOVE is not set
-+# CONFIG_SPL_DM_DEVICE_REMOVE is not set
 +CONFIG_DM_STDIO=y
 +CONFIG_DM_SEQ_ALIAS=y
-+CONFIG_SPL_DM_SEQ_ALIAS=y
-+CONFIG_SPL_DM_INLINE_OFNODE=y
 +# CONFIG_DM_DMA is not set
 +# CONFIG_REGMAP is not set
-+# CONFIG_SPL_REGMAP is not set
 +# CONFIG_DEVRES is not set
 +CONFIG_SIMPLE_BUS=y
-+CONFIG_SPL_SIMPLE_BUS=y
 +# CONFIG_SIMPLE_BUS_CORRECT_RANGE is not set
 +CONFIG_OF_TRANSLATE=y
-+# CONFIG_SPL_OF_TRANSLATE is not set
 +# CONFIG_TRANSLATION_OFFSET is not set
 +CONFIG_DM_DEV_READ_INLINE=y
 +# CONFIG_OFNODE_MULTI_TREE is not set
@@ -955,11 +828,8 @@ index 0000000000..0c1ac12a15
 +# Clock
 +#
 +CONFIG_CLK=y
-+CONFIG_SPL_CLK=y
-+# CONFIG_SPL_CLK_CCF is not set
 +# CONFIG_CLK_CCF is not set
 +# CONFIG_CLK_GPIO is not set
-+# CONFIG_SPL_CLK_GPIO is not set
 +# CONFIG_CLK_CDCE9XX is not set
 +# CONFIG_CLK_ICS8N3QV01 is not set
 +# CONFIG_CLK_K210 is not set
@@ -974,7 +844,6 @@ index 0000000000..0c1ac12a15
 +# CONFIG_CLK_TI_CTRL is not set
 +# CONFIG_CLK_TI_GATE is not set
 +# CONFIG_CLK_K3 is not set
-+# CONFIG_SPL_CLK_K3 is not set
 +# CONFIG_CPU is not set
 +
 +#
@@ -1064,9 +933,7 @@ index 0000000000..0c1ac12a15
 +# CONFIG_SYS_I2C_MV is not set
 +# CONFIG_SYS_I2C_MVTWSI is not set
 +CONFIG_INPUT=y
-+# CONFIG_SPL_INPUT is not set
 +# CONFIG_DM_KEYBOARD is not set
-+# CONFIG_SPL_DM_KEYBOARD is not set
 +# CONFIG_CROS_EC_KEYB is not set
 +# CONFIG_TEGRA_KEYBOARD is not set
 +# CONFIG_TWL4030_INPUT is not set
@@ -1080,7 +947,6 @@ index 0000000000..0c1ac12a15
 +# LED Support
 +#
 +# CONFIG_LED is not set
-+# CONFIG_SPL_LED is not set
 +# CONFIG_LED_STATUS is not set
 +
 +#
@@ -1099,7 +965,6 @@ index 0000000000..0c1ac12a15
 +# Multifunction device drivers
 +#
 +# CONFIG_MISC is not set
-+# CONFIG_SPL_MISC is not set
 +# CONFIG_NVMEM is not set
 +# CONFIG_SPL_NVMEM is not set
 +# CONFIG_SMSC_LPC47M is not set
@@ -1116,7 +981,6 @@ index 0000000000..0c1ac12a15
 +# CONFIG_TWL4030_LED is not set
 +# CONFIG_WINBOND_W83627 is not set
 +# CONFIG_FS_LOADER is not set
-+# CONFIG_SPL_FS_LOADER is not set
 +
 +#
 +# MMC Host controller Support
@@ -1166,7 +1030,6 @@ index 0000000000..0c1ac12a15
 +# Generic NAND options
 +#
 +CONFIG_SYS_NAND_ONFI_DETECTION=y
-+# CONFIG_SYS_NAND_U_BOOT_LOCATIONS is not set
 +# CONFIG_MTD_SPI_NAND is not set
 +CONFIG_SYS_NAND_MAX_OOBFREE=32
 +CONFIG_SYS_NAND_MAX_ECCPOS=680
@@ -1236,7 +1099,6 @@ index 0000000000..0c1ac12a15
 +# PHY Subsystem
 +#
 +# CONFIG_PHY is not set
-+# CONFIG_SPL_PHY is not set
 +# CONFIG_MIPI_DPHY_HELPERS is not set
 +
 +#
@@ -1248,12 +1110,9 @@ index 0000000000..0c1ac12a15
 +# Pin controllers
 +#
 +# CONFIG_PINCTRL is not set
-+# CONFIG_SPL_PINCTRL is not set
 +CONFIG_POWER=y
 +# CONFIG_POWER_LEGACY is not set
-+# CONFIG_SPL_POWER_LEGACY is not set
 +# CONFIG_ACPI_PMC is not set
-+# CONFIG_SPL_ACPI_PMC is not set
 +
 +#
 +# Power Domain Support
@@ -1263,8 +1122,6 @@ index 0000000000..0c1ac12a15
 +# CONFIG_PMIC_TPS65217 is not set
 +# CONFIG_POWER_TPS65218 is not set
 +# CONFIG_POWER_TPS62362 is not set
-+# CONFIG_SPL_POWER_TPS62362 is not set
-+# CONFIG_SPL_POWER_TPS65910 is not set
 +# CONFIG_DM_REGULATOR is not set
 +# CONFIG_TPS6586X_POWER is not set
 +# CONFIG_POWER_MT6323 is not set
@@ -1293,7 +1150,6 @@ index 0000000000..0c1ac12a15
 +# Real Time Clock
 +#
 +# CONFIG_DM_RTC is not set
-+# CONFIG_SPL_DM_RTC is not set
 +# CONFIG_RTC_ENABLE_32KHZ_OUTPUT is not set
 +# CONFIG_RTC_DS1337 is not set
 +# CONFIG_RTC_DS1338 is not set
@@ -1314,16 +1170,13 @@ index 0000000000..0c1ac12a15
 +CONFIG_REQUIRE_SERIAL_CONSOLE=y
 +# CONFIG_SPECIFY_CONSOLE_INDEX is not set
 +CONFIG_SERIAL_PRESENT=y
-+CONFIG_SPL_SERIAL_PRESENT=y
 +CONFIG_DM_SERIAL=y
 +# CONFIG_SERIAL_RX_BUFFER is not set
 +# CONFIG_SERIAL_PUTS is not set
 +# CONFIG_SERIAL_SEARCH_ALL is not set
 +# CONFIG_SERIAL_PROBE_ALL is not set
-+CONFIG_SPL_DM_SERIAL=y
 +# CONFIG_VPL_DM_SERIAL is not set
 +CONFIG_DEBUG_UART_ZYNQ=y
-+CONFIG_SPL_DEBUG_UART_BASE=0xe0001000
 +CONFIG_DEBUG_UART_SHIFT=0
 +CONFIG_DEBUG_UART_ANNOUNCE=y
 +# CONFIG_DEBUG_UART_SKIP_INIT is not set
@@ -1436,14 +1289,12 @@ index 0000000000..0c1ac12a15
 +# Timer Support
 +#
 +CONFIG_TIMER=y
-+CONFIG_SPL_TIMER=y
 +# CONFIG_TIMER_EARLY is not set
 +# CONFIG_ALTERA_TIMER is not set
 +CONFIG_ARM_TWD_TIMER=y
 +# CONFIG_AST_TIMER is not set
 +# CONFIG_ATCPIT100_TIMER is not set
 +# CONFIG_ATMEL_PIT_TIMER is not set
-+# CONFIG_SPL_ATMEL_PIT_TIMER is not set
 +# CONFIG_CADENCE_TTC_TIMER is not set
 +# CONFIG_DESIGNWARE_APB_TIMER is not set
 +# CONFIG_FTTMR010_TIMER is not set
@@ -1479,7 +1330,6 @@ index 0000000000..0c1ac12a15
 +# Graphics support
 +#
 +# CONFIG_VIDEO is not set
-+# CONFIG_SPL_VIDEO is not set
 +
 +#
 +# VirtIO Drivers
@@ -1504,7 +1354,6 @@ index 0000000000..0c1ac12a15
 +# CONFIG_IMX_WATCHDOG is not set
 +# CONFIG_ULP_WATCHDOG is not set
 +# CONFIG_WDT is not set
-+# CONFIG_SPL_WDT is not set
 +# CONFIG_PHYS_TO_BUS is not set
 +
 +#
@@ -1512,7 +1361,6 @@ index 0000000000..0c1ac12a15
 +#
 +# CONFIG_FS_BTRFS is not set
 +# CONFIG_FS_CBFS is not set
-+# CONFIG_SPL_FS_CBFS is not set
 +# CONFIG_FS_EXT4 is not set
 +CONFIG_FS_FAT=y
 +CONFIG_FAT_WRITE=y
@@ -1536,24 +1384,17 @@ index 0000000000..0c1ac12a15
 +# CONFIG_DYNAMIC_CRC_TABLE is not set
 +CONFIG_HAVE_PRIVATE_LIBGCC=y
 +# CONFIG_SEMIHOSTING is not set
-+# CONFIG_SPL_SEMIHOSTING is not set
 +CONFIG_PRINTF=y
-+CONFIG_SPL_PRINTF=y
 +CONFIG_SPRINTF=y
-+CONFIG_SPL_SPRINTF=y
 +CONFIG_STRTO=y
-+CONFIG_SPL_STRTO=y
 +CONFIG_USE_PRIVATE_LIBGCC=y
 +CONFIG_SYS_HZ=1000
-+CONFIG_SPL_USE_TINY_PRINTF=y
 +# CONFIG_PANIC_HANG is not set
 +# CONFIG_REGEX is not set
 +CONFIG_LIB_RAND=y
 +# CONFIG_LIB_HW_RAND is not set
 +CONFIG_SUPPORT_ACPI=y
 +# CONFIG_ACPI is not set
-+# CONFIG_SPL_ACPI is not set
-+# CONFIG_SPL_TINY_MEMSET is not set
 +# CONFIG_BITREVERSE is not set
 +# CONFIG_TRACE is not set
 +# CONFIG_CIRCBUF is not set
@@ -1566,7 +1407,6 @@ index 0000000000..0c1ac12a15
 +# CONFIG_ECDSA is not set
 +# CONFIG_RSA is not set
 +# CONFIG_TPM is not set
-+# CONFIG_SPL_TPM is not set
 +
 +#
 +# Android Verified Boot
@@ -1581,17 +1421,8 @@ index 0000000000..0c1ac12a15
 +# CONFIG_SHA512 is not set
 +# CONFIG_SHA384 is not set
 +# CONFIG_SHA_HW_ACCEL is not set
-+# CONFIG_SPL_CRC32 is not set
-+# CONFIG_SPL_SHA1 is not set
-+# CONFIG_SPL_SHA256 is not set
-+# CONFIG_SPL_SHA512 is not set
-+# CONFIG_SPL_SHA384 is not set
-+# CONFIG_SPL_SHA_HW_ACCEL is not set
 +# CONFIG_MD5 is not set
-+# CONFIG_SPL_MD5 is not set
 +CONFIG_CRC8=y
-+# CONFIG_SPL_CRC8 is not set
-+# CONFIG_SPL_CRC16 is not set
 +CONFIG_CRC32=y
 +
 +#
@@ -1605,13 +1436,8 @@ index 0000000000..0c1ac12a15
 +# CONFIG_BZIP2 is not set
 +CONFIG_ZLIB=y
 +# CONFIG_ZSTD is not set
-+# CONFIG_SPL_BZIP2 is not set
-+# CONFIG_SPL_LZ4 is not set
-+# CONFIG_SPL_LZMA is not set
 +# CONFIG_VPL_LZMA is not set
-+# CONFIG_SPL_LZO is not set
 +# CONFIG_SPL_GZIP is not set
-+# CONFIG_SPL_ZSTD is not set
 +# CONFIG_ERRNO_STR is not set
 +# CONFIG_HEXDUMP is not set
 +# CONFIG_GETOPT is not set
@@ -1625,7 +1451,6 @@ index 0000000000..0c1ac12a15
 +# System tables
 +#
 +# CONFIG_LIB_RATIONAL is not set
-+# CONFIG_SPL_LIB_RATIONAL is not set
 +# CONFIG_SMBIOS_PARSER is not set
 +# CONFIG_OPTEE_LIB is not set
 +# CONFIG_OPTEE_IMAGE is not set
@@ -1640,7 +1465,6 @@ index 0000000000..0c1ac12a15
 +# Testing
 +#
 +# CONFIG_UNIT_TEST is not set
-+# CONFIG_SPL_UNIT_TEST is not set
 +# CONFIG_POST is not set
 +
 +#
