@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xFAE0E4A4EC3C1F6D",
+      "boundary_crc": "0xA095B310D335E5AC",
       "device": "xc7z010clg400-3",
       "gen_directory": "../../../../boot.gen/sources_1/bd/toplevel",
       "name": "toplevel",
@@ -215,11 +215,6 @@
       }
     },
     "ports": {
-      "ENET0_GMII_TX_EN_0": {
-        "direction": "O",
-        "left": "0",
-        "right": "0"
-      },
       "ENET0_GMII_TXD": {
         "direction": "O",
         "left": "3",
@@ -236,13 +231,69 @@
         "left": "3",
         "right": "0"
       },
-      "ENET0_GMII_RX_CLK_0": {
-        "direction": "I"
+      "LED": {
+        "direction": "O",
+        "left": "1",
+        "right": "0"
       },
-      "ENET0_GMII_RX_DV_0": {
-        "direction": "I"
+      "ENET0_GMII_TX_EN_0": {
+        "direction": "O",
+        "left": "0",
+        "right": "0"
+      },
+      "ENET0_GMII_RX_CLK_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "toplevel_ENET0_GMII_RX_CLK_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
       },
       "ENET0_GMII_TX_CLK_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "toplevel_ENET0_GMII_TX_CLK_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "ENET0_GMII_RX_DV_0": {
         "direction": "I"
       }
     },
@@ -270,7 +321,7 @@
             "value": "10.000000"
           },
           "PCW_ACT_FPGA0_PERIPHERAL_FREQMHZ": {
-            "value": "100.000000"
+            "value": "10.000000"
           },
           "PCW_ACT_FPGA1_PERIPHERAL_FREQMHZ": {
             "value": "10.000000"
@@ -279,7 +330,7 @@
             "value": "10.000000"
           },
           "PCW_ACT_FPGA3_PERIPHERAL_FREQMHZ": {
-            "value": "10.000000"
+            "value": "25.000000"
           },
           "PCW_ACT_PCAP_PERIPHERAL_FREQMHZ": {
             "value": "200.000000"
@@ -324,7 +375,7 @@
             "value": "111.111115"
           },
           "PCW_CLK0_FREQ": {
-            "value": "100000000"
+            "value": "10000000"
           },
           "PCW_CLK1_FREQ": {
             "value": "10000000"
@@ -333,7 +384,7 @@
             "value": "10000000"
           },
           "PCW_CLK3_FREQ": {
-            "value": "10000000"
+            "value": "25000000"
           },
           "PCW_DDR_RAM_HIGHADDR": {
             "value": "0x0FFFFFFF"
@@ -353,7 +404,16 @@
           "PCW_ENET0_PERIPHERAL_FREQMHZ": {
             "value": "100 Mbps"
           },
+          "PCW_EN_CLK0_PORT": {
+            "value": "0"
+          },
+          "PCW_EN_CLK3_PORT": {
+            "value": "1"
+          },
           "PCW_EN_EMIO_ENET0": {
+            "value": "1"
+          },
+          "PCW_EN_EMIO_GPIO": {
             "value": "1"
           },
           "PCW_EN_ENET0": {
@@ -365,11 +425,26 @@
           "PCW_EN_UART1": {
             "value": "1"
           },
+          "PCW_FCLK_CLK3_BUF": {
+            "value": "TRUE"
+          },
           "PCW_FPGA0_PERIPHERAL_FREQMHZ": {
             "value": "100"
           },
-          "PCW_FPGA_FCLK0_ENABLE": {
+          "PCW_FPGA3_PERIPHERAL_FREQMHZ": {
+            "value": "25"
+          },
+          "PCW_FPGA_FCLK3_ENABLE": {
             "value": "1"
+          },
+          "PCW_GPIO_EMIO_GPIO_ENABLE": {
+            "value": "1"
+          },
+          "PCW_GPIO_EMIO_GPIO_IO": {
+            "value": "2"
+          },
+          "PCW_GPIO_EMIO_GPIO_WIDTH": {
+            "value": "2"
           },
           "PCW_MIO_24_IOTYPE": {
             "value": "LVCMOS 3.3V"
@@ -724,10 +799,16 @@
           "ENET0_GMII_TX_EN_0"
         ]
       },
-      "processing_system7_0_FCLK_CLK0": {
+      "processing_system7_0_FCLK_CLK3": {
         "ports": [
-          "processing_system7_0/FCLK_CLK0",
+          "processing_system7_0/FCLK_CLK3",
           "processing_system7_0/M_AXI_GP0_ACLK"
+        ]
+      },
+      "processing_system7_0_GPIO_O": {
+        "ports": [
+          "processing_system7_0/GPIO_O",
+          "LED"
         ]
       },
       "xlconcat_1_dout": {

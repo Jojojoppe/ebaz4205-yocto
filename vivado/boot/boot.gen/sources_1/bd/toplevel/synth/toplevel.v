@@ -2,7 +2,7 @@
 //Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
-//Date        : Mon Feb 24 12:18:55 2025
+//Date        : Mon Feb 24 17:39:13 2025
 //Host        : NotSoStraightDPC running 64-bit Arch Linux
 //Command     : generate_target toplevel.bd
 //Design      : toplevel
@@ -39,6 +39,7 @@ module toplevel
     FIXED_IO_ps_clk,
     FIXED_IO_ps_porb,
     FIXED_IO_ps_srstb,
+    LED,
     MDIO_ETHERNET_0_0_mdc,
     MDIO_ETHERNET_0_0_mdio_i,
     MDIO_ETHERNET_0_0_mdio_o,
@@ -59,10 +60,10 @@ module toplevel
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR RESET_N" *) inout DDR_reset_n;
   (* X_INTERFACE_INFO = "xilinx.com:interface:ddrx:1.0 DDR WE_N" *) inout DDR_we_n;
   input [3:0]ENET0_GMII_RXD;
-  input ENET0_GMII_RX_CLK_0;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.ENET0_GMII_RX_CLK_0 CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.ENET0_GMII_RX_CLK_0, CLK_DOMAIN toplevel_ENET0_GMII_RX_CLK_0, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.0" *) input ENET0_GMII_RX_CLK_0;
   input ENET0_GMII_RX_DV_0;
   output [3:0]ENET0_GMII_TXD;
-  input ENET0_GMII_TX_CLK_0;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.ENET0_GMII_TX_CLK_0 CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.ENET0_GMII_TX_CLK_0, CLK_DOMAIN toplevel_ENET0_GMII_TX_CLK_0, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.0" *) input ENET0_GMII_TX_CLK_0;
   output [0:0]ENET0_GMII_TX_EN_0;
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO DDR_VRN" *) (* X_INTERFACE_MODE = "Master" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME FIXED_IO, CAN_DEBUG false" *) inout FIXED_IO_ddr_vrn;
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO DDR_VRP" *) inout FIXED_IO_ddr_vrp;
@@ -70,6 +71,7 @@ module toplevel
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_CLK" *) inout FIXED_IO_ps_clk;
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_PORB" *) inout FIXED_IO_ps_porb;
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_SRSTB" *) inout FIXED_IO_ps_srstb;
+  output [1:0]LED;
   (* X_INTERFACE_INFO = "xilinx.com:interface:mdio:1.0 MDIO_ETHERNET_0_0 MDC" *) (* X_INTERFACE_MODE = "Master" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME MDIO_ETHERNET_0_0, CAN_DEBUG false" *) output MDIO_ETHERNET_0_0_mdc;
   (* X_INTERFACE_INFO = "xilinx.com:interface:mdio:1.0 MDIO_ETHERNET_0_0 MDIO_I" *) input MDIO_ETHERNET_0_0_mdio_i;
   (* X_INTERFACE_INFO = "xilinx.com:interface:mdio:1.0 MDIO_ETHERNET_0_0 MDIO_O" *) output MDIO_ETHERNET_0_0_mdio_o;
@@ -102,12 +104,13 @@ module toplevel
   wire FIXED_IO_ps_clk;
   wire FIXED_IO_ps_porb;
   wire FIXED_IO_ps_srstb;
+  wire [1:0]LED;
   wire MDIO_ETHERNET_0_0_mdc;
   wire MDIO_ETHERNET_0_0_mdio_i;
   wire MDIO_ETHERNET_0_0_mdio_o;
   wire MDIO_ETHERNET_0_0_mdio_t;
   wire [7:0]processing_system7_0_ENET0_GMII_TXD;
-  wire processing_system7_0_FCLK_CLK0;
+  wire processing_system7_0_FCLK_CLK3;
   wire [7:0]xlconcat_1_dout;
 
   toplevel_processing_system7_0_0 processing_system7_0
@@ -142,9 +145,11 @@ module toplevel
         .ENET0_MDIO_MDC(MDIO_ETHERNET_0_0_mdc),
         .ENET0_MDIO_O(MDIO_ETHERNET_0_0_mdio_o),
         .ENET0_MDIO_T(MDIO_ETHERNET_0_0_mdio_t),
-        .FCLK_CLK0(processing_system7_0_FCLK_CLK0),
+        .FCLK_CLK3(processing_system7_0_FCLK_CLK3),
+        .GPIO_I({1'b0,1'b0}),
+        .GPIO_O(LED),
         .MIO(FIXED_IO_mio),
-        .M_AXI_GP0_ACLK(processing_system7_0_FCLK_CLK0),
+        .M_AXI_GP0_ACLK(processing_system7_0_FCLK_CLK3),
         .M_AXI_GP0_ARREADY(1'b0),
         .M_AXI_GP0_AWREADY(1'b0),
         .M_AXI_GP0_BID({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
