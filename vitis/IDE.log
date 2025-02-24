@@ -1,0 +1,13 @@
+17:54:16 DEBUG : Logs will be stored at '/data/joppe/projects/ebaz/vitis/IDE.log'.
+17:59:41 INFO  : Launching XSCT server: xsct -n  -interactive /data/joppe/projects/ebaz/vitis/temp_xsdb_launch_script.tcl
+17:59:41 INFO  : Platform repository initialization has completed.
+17:59:41 INFO  : Registering command handlers for Vitis TCF services
+17:59:44 INFO  : XSCT server has started successfully.
+17:59:44 INFO  : Successfully done setting XSCT server connection channel  
+17:59:44 INFO  : plnx-install-location is set to ''
+17:59:44 INFO  : Successfully done setting workspace for the tool. 
+17:59:44 INFO  : Successfully done query RDI_DATADIR 
+18:00:47 INFO  : Result from executing command 'getProjects': ebaz4205-boot
+18:00:47 INFO  : Result from executing command 'getPlatforms': 
+18:01:36 INFO  : Result from executing command 'getProjects': ebaz4205-boot
+18:01:36 INFO  : Result from executing command 'getPlatforms': ebaz4205-boot|/data/joppe/projects/ebaz/vitis/ebaz4205-boot/export/ebaz4205-boot/ebaz4205-boot.xpfm

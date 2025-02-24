@@ -1,14 +1,14 @@
-From ed53ca72dc8cbfed2f81c8282365a32746af4fec Mon Sep 17 00:00:00 2001
+From 74e79a3efa20b9bbeb5a9e85bae2bc13be60babf Mon Sep 17 00:00:00 2001
 From: Jojojoppe <joppe@blondel.nl>
-Date: Sun, 23 Feb 2025 20:22:27 +0000
+Date: Mon, 24 Feb 2025 11:26:27 +0000
 Subject: [PATCH] ebaz4205: added files
 
 ---
  arch/arm/dts/Makefile           |    1 +
- arch/arm/dts/zynq-ebaz4205.dts  |   33 +
- configs/zynq_ebaz4205_defconfig | 1419 +++++++++++++++++++++++++++++++
+ arch/arm/dts/zynq-ebaz4205.dts  |   81 ++
+ configs/zynq_ebaz4205_defconfig | 1718 +++++++++++++++++++++++++++++++
  include/configs/zynq-ebaz4205.h |   42 +
- 4 files changed, 1495 insertions(+)
+ 4 files changed, 1842 insertions(+)
  create mode 100644 arch/arm/dts/zynq-ebaz4205.dts
  create mode 100644 configs/zynq_ebaz4205_defconfig
  create mode 100644 include/configs/zynq-ebaz4205.h
@@ -27,27 +27,63 @@ index 48ca62521b..7207ef6100 100644
  	zynq-picozed.dtb \
 diff --git a/arch/arm/dts/zynq-ebaz4205.dts b/arch/arm/dts/zynq-ebaz4205.dts
 new file mode 100644
-index 0000000000..09dbdcd23f
+index 0000000000..f6a7c635cc
 --- /dev/null
 +++ b/arch/arm/dts/zynq-ebaz4205.dts
-@@ -0,0 +1,33 @@
+@@ -0,0 +1,81 @@
 +/dts-v1/;
 +#include "zynq-7000.dtsi"
 +
 +/ {
 +	model = "EBAZ4205 board";
 +	compatible = "xlnx,zynq-ebaz4205", "xlnx,zynq-7000";
-+
++	
 +	aliases {
 +		serial0 = &uart1;
 +		mmc0 = &sdhci0;
++		ethernet0 = &gem0;
 +	};
-+
++	
 +	memory@0 {
 +		device_type = "memory";
 +		reg = <0 0x10000000>;
 +	};
-+    
++	
++	buttons {
++		compatible = "gpio-keys-polled";
++		poll-interval = <100>;
++		
++		s2-button {
++			gpios = <&gpio0 20 1>;
++			label = "s2-button";
++			default-state = "keep";
++			linux,code = <106>;
++			autorepeat;
++		};
++		s3-button {
++			gpios = <&gpio0 32 1>;
++			label = "s3-button";
++			default-state = "keep";
++			linux,code = <105>;
++			autorepeat;
++		};
++	};
++	
++	leds {
++		compatible = "gpio-leds";
++		
++		led-green {
++			label = "led-green";
++			gpios = <&gpio0 55 1>;
++			default-state = "off";
++		};
++		led-red {
++			label = "led-red";
++			gpios = <&gpio0 54 1>;
++			default-state = "off";
++		};
++	};
++	
 +	chosen {
 +		bootargs = "";
 +		stdout-path = "serial0:115200n8";
@@ -55,21 +91,33 @@ index 0000000000..09dbdcd23f
 +};
 +
 +&uart1 {
-+	u-boot,dm-spl;
 +	status = "okay";
 +};
 +
 +&sdhci0 {
-+	u-boot,dm-spl;
 +	status = "okay";
++};
++
++&gem0 {
++	status = "okay";
++	phy-mode = "mii";
++	phy-handle = <&phy>;
++	
++	/* PHY clock */
++	assigned-clocks = <&clkc 18>;
++	assigned-clock-rates = <25000000>;
++	
++	phy: ethernet-phy@0 {
++		reg = <0>;
++	};
 +};
 +
 diff --git a/configs/zynq_ebaz4205_defconfig b/configs/zynq_ebaz4205_defconfig
 new file mode 100644
-index 0000000000..d2397c5d8c
+index 0000000000..2962b462e7
 --- /dev/null
 +++ b/configs/zynq_ebaz4205_defconfig
-@@ -0,0 +1,1419 @@
+@@ -0,0 +1,1718 @@
 +#
 +# Automatically generated file; DO NOT EDIT.
 +# U-Boot 2024.01 Configuration
@@ -255,12 +303,13 @@ index 0000000000..d2397c5d8c
 +CONFIG_SF_DEFAULT_SPEED=1000000
 +CONFIG_SF_DEFAULT_MODE=0x0
 +CONFIG_ENV_SIZE=0x4000
-+# CONFIG_DM_GPIO is not set
++CONFIG_DM_GPIO=y
 +CONFIG_DEFAULT_DEVICE_TREE="zynq-ebaz4205"
 +# CONFIG_OF_LIBFDT_OVERLAY is not set
 +CONFIG_MULTI_DTB_FIT_UNCOMPRESS_SZ=0x8000
 +# CONFIG_DM_RESET is not set
 +CONFIG_SYS_MONITOR_LEN=0
++CONFIG_SPL_MMC=y
 +CONFIG_SPL_SERIAL=y
 +CONFIG_ERR_PTR_OFFSET=0x0
 +# CONFIG_SPL is not set
@@ -281,6 +330,7 @@ index 0000000000..d2397c5d8c
 +# CONFIG_CMD_FRU is not set
 +# CONFIG_FRU_SC is not set
 +CONFIG_CMD_ZYNQ=y
++# CONFIG_CMD_ZYNQ_AES is not set
 +# CONFIG_HAS_ARMV7_SECURE_BASE is not set
 +# CONFIG_ARMV7_LPAE is not set
 +# CONFIG_CMD_DEKBLOB is not set
@@ -358,9 +408,10 @@ index 0000000000..d2397c5d8c
 +#
 +# Boot images
 +#
-+# CONFIG_ANDROID_BOOT_IMAGE is not set
++CONFIG_ANDROID_BOOT_IMAGE=y
 +# CONFIG_TIMESTAMP is not set
 +# CONFIG_FIT is not set
++# CONFIG_BOOTSTD is not set
 +CONFIG_LEGACY_IMAGE_FORMAT=y
 +# CONFIG_SUPPORT_RAW_INITRD is not set
 +# CONFIG_CHROMEOS is not set
@@ -378,11 +429,11 @@ index 0000000000..d2397c5d8c
 +#
 +# Boot media
 +#
-+# CONFIG_NAND_BOOT is not set
++CONFIG_NAND_BOOT=y
 +# CONFIG_ONENAND_BOOT is not set
 +# CONFIG_QSPI_BOOT is not set
 +# CONFIG_SATA_BOOT is not set
-+# CONFIG_SD_BOOT is not set
++CONFIG_SD_BOOT=y
 +# CONFIG_SD_BOOT_QSPI is not set
 +# CONFIG_SPI_BOOT is not set
 +
@@ -450,14 +501,17 @@ index 0000000000..d2397c5d8c
 +# Init options
 +#
 +# CONFIG_BOARD_TYPES is not set
-+# CONFIG_DISPLAY_CPUINFO is not set
++CONFIG_DISPLAY_CPUINFO=y
 +CONFIG_DISPLAY_BOARDINFO=y
-+# CONFIG_DISPLAY_BOARDINFO_LATE is not set
++CONFIG_DISPLAY_BOARDINFO_LATE=y
 +
 +#
 +# Start-up hooks
 +#
 +# CONFIG_CYCLIC is not set
++CONFIG_EVENT=y
++# CONFIG_EVENT_DEBUG is not set
++CONFIG_ARCH_EARLY_INIT_R=y
 +# CONFIG_ARCH_MISC_INIT is not set
 +# CONFIG_BOARD_EARLY_INIT_F is not set
 +# CONFIG_BOARD_EARLY_INIT_R is not set
@@ -465,7 +519,7 @@ index 0000000000..d2397c5d8c
 +# CONFIG_BOARD_LATE_INIT is not set
 +CONFIG_CLOCKS=y
 +# CONFIG_HWCONFIG is not set
-+# CONFIG_LAST_STAGE_INIT is not set
++CONFIG_LAST_STAGE_INIT=y
 +# CONFIG_MISC_INIT_R is not set
 +# CONFIG_SYS_MALLOC_BOOTPARAMS is not set
 +# CONFIG_ID_EEPROM is not set
@@ -497,7 +551,7 @@ index 0000000000..d2397c5d8c
 +# CONFIG_CMDLINE_EDITING is not set
 +# CONFIG_AUTO_COMPLETE is not set
 +# CONFIG_SYS_LONGHELP is not set
-+CONFIG_SYS_PROMPT="Zynq> "
++CONFIG_SYS_PROMPT="Ebaz4205> "
 +CONFIG_SYS_MAXARGS=32
 +CONFIG_SYS_CBSIZE=1024
 +CONFIG_SYS_PBSIZE=1047
@@ -510,7 +564,7 @@ index 0000000000..d2397c5d8c
 +#
 +# Info commands
 +#
-+# CONFIG_CMD_BDI is not set
++CONFIG_CMD_BDI=y
 +# CONFIG_CMD_BDINFO_EXTRA is not set
 +# CONFIG_CMD_CONFIG is not set
 +# CONFIG_CMD_CONSOLE is not set
@@ -527,10 +581,11 @@ index 0000000000..d2397c5d8c
 +CONFIG_SYS_BOOTM_LEN=0x800000
 +# CONFIG_CMD_BOOTMENU is not set
 +# CONFIG_CMD_ADTIMG is not set
-+# CONFIG_CMD_ELF is not set
++# CONFIG_CMD_ABOOTIMG is not set
++CONFIG_CMD_ELF=y
 +# CONFIG_CMD_FDT is not set
-+# CONFIG_CMD_GO is not set
-+# CONFIG_CMD_RUN is not set
++CONFIG_CMD_GO=y
++CONFIG_CMD_RUN=y
 +# CONFIG_CMD_IMI is not set
 +# CONFIG_CMD_IMLS is not set
 +# CONFIG_CMD_XIMG is not set
@@ -544,7 +599,8 @@ index 0000000000..d2397c5d8c
 +# CONFIG_CMD_IMPORTENV is not set
 +# CONFIG_CMD_EDITENV is not set
 +# CONFIG_CMD_GREPENV is not set
-+# CONFIG_CMD_SAVEENV is not set
++CONFIG_CMD_SAVEENV=y
++CONFIG_CMD_ERASEENV=y
 +# CONFIG_CMD_ENV_EXISTS is not set
 +# CONFIG_CMD_ENV_CALLBACK is not set
 +# CONFIG_CMD_ENV_FLAGS is not set
@@ -583,15 +639,23 @@ index 0000000000..d2397c5d8c
 +# Device access commands
 +#
 +# CONFIG_CMD_ARMFLASH is not set
++# CONFIG_CMD_BCB is not set
 +# CONFIG_CMD_BIND is not set
 +# CONFIG_CMD_CLK is not set
 +# CONFIG_CMD_DEMO is not set
 +# CONFIG_CMD_DFU is not set
-+# CONFIG_CMD_DM is not set
++CONFIG_CMD_DM=y
 +# CONFIG_CMD_FLASH is not set
++CONFIG_CMD_FPGA=y
++# CONFIG_CMD_FPGA_LOADBP is not set
++# CONFIG_CMD_FPGA_LOADFS is not set
++# CONFIG_CMD_FPGA_LOADMK is not set
++# CONFIG_CMD_FPGA_LOADP is not set
++# CONFIG_CMD_FPGA_LOAD_SECURE is not set
 +# CONFIG_CMD_FPGAD is not set
 +# CONFIG_CMD_FUSE is not set
-+# CONFIG_CMD_GPIO is not set
++CONFIG_CMD_GPIO=y
++# CONFIG_CMD_GPIO_READ is not set
 +# CONFIG_CMD_GPT is not set
 +# CONFIG_RANDOM_UUID is not set
 +# CONFIG_CMD_IDE is not set
@@ -602,7 +666,13 @@ index 0000000000..d2397c5d8c
 +# CONFIG_CMD_LOADM is not set
 +# CONFIG_CMD_LOADS is not set
 +CONFIG_CMD_LOADXY_TIMEOUT=90
++CONFIG_CMD_LSBLK=y
 +# CONFIG_CMD_MBR is not set
++CONFIG_CMD_MMC=y
++# CONFIG_CMD_BKOPS_ENABLE is not set
++# CONFIG_CMD_MMC_REG is not set
++# CONFIG_CMD_MMC_SWRITE is not set
++# CONFIG_CMD_CLONE is not set
 +# CONFIG_CMD_MTD is not set
 +CONFIG_CMD_NAND=y
 +# CONFIG_CMD_NAND_TRIMFFS is not set
@@ -610,6 +680,7 @@ index 0000000000..d2397c5d8c
 +# CONFIG_CMD_NAND_TORTURE is not set
 +# CONFIG_CMD_ONENAND is not set
 +# CONFIG_CMD_OSD is not set
++# CONFIG_CMD_PART is not set
 +# CONFIG_CMD_PCI is not set
 +# CONFIG_CMD_POWEROFF is not set
 +# CONFIG_CMD_READ is not set
@@ -622,31 +693,69 @@ index 0000000000..d2397c5d8c
 +# CONFIG_CMD_UNIVERSE is not set
 +# CONFIG_CMD_USB_SDP is not set
 +# CONFIG_CMD_RKMTD is not set
-+# CONFIG_CMD_WRITE is not set
++CONFIG_CMD_WRITE=y
 +
 +#
 +# Shell scripting commands
 +#
-+# CONFIG_CMD_CAT is not set
-+# CONFIG_CMD_ECHO is not set
++CONFIG_CMD_CAT=y
++CONFIG_CMD_ECHO=y
 +# CONFIG_CMD_ITEST is not set
-+# CONFIG_CMD_SOURCE is not set
++CONFIG_CMD_SOURCE=y
 +# CONFIG_CMD_SETEXPR is not set
 +# CONFIG_CMD_XXD is not set
 +
 +#
 +# Android support commands
 +#
++CONFIG_CMD_NET=y
++CONFIG_CMD_BOOTP=y
++# CONFIG_CMD_DHCP is not set
++# CONFIG_BOOTP_MAY_FAIL is not set
++CONFIG_BOOTP_BOOTPATH=y
++# CONFIG_BOOTP_VENDOREX is not set
++# CONFIG_BOOTP_BOOTFILESIZE is not set
++CONFIG_BOOTP_DNS=y
++# CONFIG_BOOTP_DNS2 is not set
++CONFIG_BOOTP_GATEWAY=y
++CONFIG_BOOTP_HOSTNAME=y
++# CONFIG_BOOTP_PREFER_SERVERIP is not set
++CONFIG_BOOTP_SUBNETMASK=y
++# CONFIG_BOOTP_NISDOMAIN is not set
++# CONFIG_BOOTP_NTPSERVER is not set
++# CONFIG_CMD_PCAP is not set
++CONFIG_BOOTP_VCI_STRING="U-Boot.armv7"
++CONFIG_CMD_TFTPBOOT=y
++# CONFIG_CMD_TFTPPUT is not set
++# CONFIG_CMD_TFTPSRV is not set
++CONFIG_NET_TFTP_VARS=y
++# CONFIG_CMD_RARP is not set
++# CONFIG_CMD_NFS is not set
++# CONFIG_SYS_DISABLE_AUTOLOAD is not set
++# CONFIG_CMD_WGET is not set
++# CONFIG_CMD_MII is not set
++# CONFIG_CMD_MDIO is not set
++# CONFIG_CMD_PING is not set
++# CONFIG_CMD_CDP is not set
++# CONFIG_CMD_SNTP is not set
++# CONFIG_CMD_DNS is not set
++# CONFIG_CMD_LINK_LOCAL is not set
++# CONFIG_CMD_ETHSW is not set
++# CONFIG_CMD_PXE is not set
++# CONFIG_CMD_WOL is not set
 +
 +#
 +# Misc commands
 +#
 +# CONFIG_CMD_2048 is not set
 +# CONFIG_CMD_BSP is not set
++CONFIG_CMD_BLOCK_CACHE=y
++CONFIG_CMD_BUTTON=y
 +# CONFIG_CMD_CACHE is not set
 +# CONFIG_CMD_CONITRACE is not set
 +# CONFIG_CMD_CLS is not set
 +# CONFIG_CMD_EXCEPTION is not set
++CONFIG_CMD_LED=y
 +# CONFIG_CMD_INI is not set
 +# CONFIG_CMD_DATE is not set
 +# CONFIG_CMD_TIME is not set
@@ -686,9 +795,9 @@ index 0000000000..d2397c5d8c
 +# CONFIG_CMD_EROFS is not set
 +# CONFIG_CMD_EXT2 is not set
 +# CONFIG_CMD_EXT4 is not set
-+# CONFIG_CMD_FAT is not set
++CONFIG_CMD_FAT=y
 +# CONFIG_CMD_SQUASHFS is not set
-+# CONFIG_CMD_FS_GENERIC is not set
++CONFIG_CMD_FS_GENERIC=y
 +# CONFIG_CMD_FS_UUID is not set
 +# CONFIG_CMD_JFFS2 is not set
 +# CONFIG_CMD_MTDPARTS is not set
@@ -701,17 +810,24 @@ index 0000000000..d2397c5d8c
 +# Debug commands
 +#
 +# CONFIG_CMD_DIAG is not set
++# CONFIG_CMD_EVENT is not set
 +# CONFIG_CMD_LOG is not set
 +# CONFIG_CMD_UBI is not set
++# CONFIG_MMC_SPEED_MODE_SET is not set
 +
 +#
 +# Partition Types
 +#
-+# CONFIG_MAC_PARTITION is not set
-+# CONFIG_DOS_PARTITION is not set
-+# CONFIG_ISO_PARTITION is not set
-+# CONFIG_AMIGA_PARTITION is not set
-+# CONFIG_EFI_PARTITION is not set
++CONFIG_PARTITIONS=y
++CONFIG_MAC_PARTITION=y
++CONFIG_DOS_PARTITION=y
++CONFIG_ISO_PARTITION=y
++CONFIG_AMIGA_PARTITION=y
++CONFIG_EFI_PARTITION=y
++CONFIG_EFI_PARTITION_ENTRIES_NUMBERS=128
++CONFIG_EFI_PARTITION_ENTRIES_OFF=0
++CONFIG_PARTITION_UUIDS=y
++CONFIG_PARTITION_TYPE_GUID=y
 +CONFIG_SUPPORT_OF_CONTROL=y
 +
 +#
@@ -734,6 +850,7 @@ index 0000000000..d2397c5d8c
 +# Environment
 +#
 +CONFIG_ENV_SUPPORT=y
++CONFIG_SAVEENV=y
 +CONFIG_ENV_OVERWRITE=y
 +CONFIG_ENV_MIN_ENTRIES=64
 +CONFIG_ENV_MAX_ENTRIES=512
@@ -743,6 +860,7 @@ index 0000000000..d2397c5d8c
 +# CONFIG_ENV_IS_IN_FAT is not set
 +# CONFIG_ENV_IS_IN_EXT4 is not set
 +# CONFIG_ENV_IS_IN_FLASH is not set
++# CONFIG_ENV_IS_IN_MMC is not set
 +# CONFIG_ENV_IS_IN_NAND is not set
 +# CONFIG_ENV_IS_IN_NVRAM is not set
 +# CONFIG_ENV_IS_IN_ONENAND is not set
@@ -760,7 +878,32 @@ index 0000000000..d2397c5d8c
 +# CONFIG_USE_ETHPRIME is not set
 +# CONFIG_USE_HOSTNAME is not set
 +# CONFIG_VERSION_VARIABLE is not set
-+# CONFIG_NET is not set
++CONFIG_NET=y
++CONFIG_ARP_TIMEOUT=5000
++CONFIG_NET_RETRY_COUNT=5
++# CONFIG_PROT_UDP is not set
++# CONFIG_BOOTP_SEND_HOSTNAME is not set
++CONFIG_NET_RANDOM_ETHADDR=y
++# CONFIG_NETCONSOLE is not set
++# CONFIG_IP_DEFRAG is not set
++# CONFIG_SYS_FAULT_ECHO_LINK_DOWN is not set
++CONFIG_TFTP_BLOCKSIZE=1468
++# CONFIG_TFTP_PORT is not set
++CONFIG_TFTP_WINDOWSIZE=1
++# CONFIG_TFTP_TSIZE is not set
++# CONFIG_SERVERIP_FROM_PROXYDHCP is not set
++CONFIG_SERVERIP_FROM_PROXYDHCP_DELAY_MS=100
++# CONFIG_KEEP_SERVERADDR is not set
++# CONFIG_UDP_CHECKSUM is not set
++# CONFIG_BOOTP_SERVERIP is not set
++CONFIG_BOOTP_MAX_ROOT_PATH_LEN=64
++# CONFIG_USE_GATEWAYIP is not set
++# CONFIG_USE_IPADDR is not set
++# CONFIG_USE_NETMASK is not set
++# CONFIG_USE_ROOTPATH is not set
++# CONFIG_USE_SERVERIP is not set
++# CONFIG_PROT_TCP is not set
++# CONFIG_IPV6 is not set
 +CONFIG_SYS_RX_ETH_BUFFER=4
 +
 +#
@@ -803,6 +946,9 @@ index 0000000000..d2397c5d8c
 +#
 +# Bus devices
 +#
++CONFIG_BLK=y
++CONFIG_BLOCK_CACHE=y
++# CONFIG_BLKMAP is not set
 +# CONFIG_EFI_MEDIA is not set
 +# CONFIG_IDE is not set
 +# CONFIG_LBA48 is not set
@@ -813,7 +959,9 @@ index 0000000000..d2397c5d8c
 +#
 +# Button Support
 +#
-+# CONFIG_BUTTON is not set
++CONFIG_BUTTON=y
++# CONFIG_BUTTON_ADC is not set
++CONFIG_BUTTON_GPIO=y
 +
 +#
 +# Cache Controller drivers
@@ -883,6 +1031,8 @@ index 0000000000..d2397c5d8c
 +#
 +# Fastboot support
 +#
++# CONFIG_UDP_FUNCTION_FASTBOOT is not set
++# CONFIG_TCP_FUNCTION_FASTBOOT is not set
 +# CONFIG_FIRMWARE is not set
 +# CONFIG_ZYNQMP_FIRMWARE is not set
 +# CONFIG_DM_FUZZING_ENGINE is not set
@@ -890,29 +1040,61 @@ index 0000000000..d2397c5d8c
 +#
 +# FPGA support
 +#
++CONFIG_FPGA=y
 +# CONFIG_FPGA_ALTERA is not set
 +# CONFIG_FPGA_SOCFPGA is not set
 +# CONFIG_FPGA_LATTICE is not set
 +# CONFIG_FPGA_XILINX is not set
-+# CONFIG_FPGA_ZYNQPL is not set
-+# CONFIG_DM_FPGA is not set
++CONFIG_FPGA_ZYNQPL=y
++# CONFIG_SYS_FPGA_CHECK_CTRLC is not set
++CONFIG_SYS_FPGA_PROG_FEEDBACK=y
++CONFIG_FPGA_LOAD_SECURE=y
++CONFIG_DM_FPGA=y
++CONFIG_MAX_FPGA_DEVICES=5
 +# CONFIG_FWU_MDATA is not set
 +CONFIG_GPIO=y
++# CONFIG_GPIO_HOG is not set
++# CONFIG_DM_GPIO_LOOKUP_LABEL is not set
++# CONFIG_ALTERA_PIO is not set
++# CONFIG_BCM2835_GPIO is not set
++# CONFIG_DWAPB_GPIO is not set
 +# CONFIG_AT91_GPIO is not set
++# CONFIG_ATMEL_PIO4 is not set
 +# CONFIG_ASPEED_GPIO is not set
 +# CONFIG_DA8XX_GPIO is not set
++# CONFIG_HIKEY_GPIO is not set
 +# CONFIG_INTEL_BROADWELL_GPIO is not set
++# CONFIG_INTEL_GPIO is not set
++# CONFIG_INTEL_ICH6_GPIO is not set
 +# CONFIG_IMX_RGPIO2P is not set
 +# CONFIG_IPROC_GPIO is not set
++# CONFIG_HSDK_CREG_GPIO is not set
 +# CONFIG_KIRKWOOD_GPIO is not set
 +# CONFIG_LPC32XX_GPIO is not set
 +# CONFIG_MCP230XX_GPIO is not set
++# CONFIG_MSM_GPIO is not set
 +# CONFIG_MXC_GPIO is not set
 +# CONFIG_MXS_GPIO is not set
++# CONFIG_NPCM_GPIO is not set
 +# CONFIG_CMD_PCA953X is not set
++# CONFIG_ROCKCHIP_GPIO is not set
++# CONFIG_XILINX_GPIO is not set
 +# CONFIG_TCA642X is not set
++# CONFIG_TEGRA_GPIO is not set
++# CONFIG_TEGRA186_GPIO is not set
 +# CONFIG_VYBRID_GPIO is not set
++# CONFIG_SIFIVE_GPIO is not set
++CONFIG_ZYNQ_GPIO=y
++# CONFIG_DM_74X164 is not set
 +# CONFIG_PCA953X is not set
++# CONFIG_MPC8XXX_GPIO is not set
++# CONFIG_MPC8XX_GPIO is not set
++# CONFIG_NX_GPIO is not set
++# CONFIG_NOMADIK_GPIO is not set
++# CONFIG_ZYNQMP_GPIO_MODEPIN is not set
++# CONFIG_SLG7XL45106_I2C_GPO is not set
++# CONFIG_TURRIS_OMNIA_MCU is not set
++# CONFIG_FTGPIO010 is not set
 +
 +#
 +# Hardware Spinlock Support
@@ -946,8 +1128,39 @@ index 0000000000..d2397c5d8c
 +#
 +# LED Support
 +#
-+# CONFIG_LED is not set
-+# CONFIG_LED_STATUS is not set
++CONFIG_LED=y
++CONFIG_LED_BLINK=y
++CONFIG_LED_GPIO=y
++CONFIG_LED_STATUS=y
++CONFIG_LED_STATUS_OFF=0
++CONFIG_LED_STATUS_BLINKING=1
++CONFIG_LED_STATUS_ON=2
++CONFIG_LED_STATUS_GPIO=y
++CONFIG_LED_STATUS_BOARD_SPECIFIC=y
++
++#
++# LEDs parameters
++#
++CONFIG_LED_STATUS0=y
++CONFIG_LED_STATUS_BIT=0
++CONFIG_LED_STATUS_STATE=0
++CONFIG_LED_STATUS_FREQ=2
++CONFIG_LED_STATUS1=y
++CONFIG_LED_STATUS_BIT1=1
++CONFIG_LED_STATUS_STATE1=0
++CONFIG_LED_STATUS_FREQ1=2
++# CONFIG_LED_STATUS2 is not set
++# CONFIG_LED_STATUS3 is not set
++# CONFIG_LED_STATUS4 is not set
++# CONFIG_LED_STATUS5 is not set
++CONFIG_LED_STATUS_BOOT_ENABLE=y
++CONFIG_LED_STATUS_BOOT=0
++CONFIG_LED_STATUS_RED_ENABLE=y
++CONFIG_LED_STATUS_RED=1
++# CONFIG_LED_STATUS_YELLOW_ENABLE is not set
++# CONFIG_LED_STATUS_BLUE_ENABLE is not set
++# CONFIG_LED_STATUS_GREEN_ENABLE is not set
++# CONFIG_LED_STATUS_CMD is not set
 +
 +#
 +# Mailbox Controller Support
@@ -985,9 +1198,53 @@ index 0000000000..d2397c5d8c
 +#
 +# MMC Host controller Support
 +#
-+# CONFIG_MMC is not set
++CONFIG_MMC=y
++CONFIG_MMC_WRITE=y
 +# CONFIG_MMC_BROKEN_CD is not set
-+# CONFIG_DM_MMC is not set
++CONFIG_DM_MMC=y
++# CONFIG_MMC_SPI is not set
++# CONFIG_ARM_PL180_MMCI is not set
++CONFIG_MMC_QUIRKS=y
++CONFIG_SYS_MMC_MAX_BLK_COUNT=65535
++CONFIG_MMC_HW_PARTITIONING=y
++# CONFIG_SUPPORT_EMMC_RPMB is not set
++# CONFIG_SUPPORT_EMMC_BOOT is not set
++# CONFIG_MMC_IO_VOLTAGE is not set
++# CONFIG_SPL_MMC_IO_VOLTAGE is not set
++# CONFIG_MMC_HS400_ES_SUPPORT is not set
++# CONFIG_SPL_MMC_HS400_ES_SUPPORT is not set
++# CONFIG_MMC_HS400_SUPPORT is not set
++# CONFIG_SPL_MMC_HS400_SUPPORT is not set
++# CONFIG_MMC_HS200_SUPPORT is not set
++# CONFIG_SPL_MMC_HS200_SUPPORT is not set
++CONFIG_MMC_VERBOSE=y
++# CONFIG_MMC_TRACE is not set
++# CONFIG_MMC_DW is not set
++# CONFIG_MMC_MXC is not set
++# CONFIG_MMC_PCI is not set
++# CONFIG_MMC_OMAP_HS is not set
++CONFIG_MMC_SDHCI=y
++# CONFIG_MMC_SDHCI_SDMA is not set
++# CONFIG_SPL_MMC_SDHCI_SDMA is not set
++# CONFIG_MMC_SDHCI_ADMA is not set
++# CONFIG_SPL_MMC_SDHCI_ADMA is not set
++# CONFIG_MMC_SDHCI_BCMSTB is not set
++# CONFIG_MMC_SDHCI_CADENCE is not set
++# CONFIG_MMC_SDHCI_IPROC is not set
++# CONFIG_MMC_SDHCI_F_SDH30 is not set
++# CONFIG_MMC_SDHCI_KONA is not set
++# CONFIG_MMC_SDHCI_MSM is not set
++# CONFIG_MMC_SDHCI_NPCM is not set
++# CONFIG_MMC_SDHCI_S5P is not set
++# CONFIG_MMC_SDHCI_STI is not set
++# CONFIG_MMC_SDHCI_XENON is not set
++# CONFIG_MMC_SDHCI_TANGIER is not set
++CONFIG_MMC_SDHCI_ZYNQ=y
++CONFIG_ZYNQ_SDHCI_MIN_FREQ=0
++# CONFIG_ZYNQ_HISPD_BROKEN is not set
++# CONFIG_MMC_PITON is not set
++# CONFIG_STM32_SDMMC2 is not set
++# CONFIG_FTSDC010 is not set
 +# CONFIG_FSL_ESDHC is not set
 +# CONFIG_FSL_ESDHC_IMX is not set
 +
@@ -1023,7 +1280,7 @@ index 0000000000..d2397c5d8c
 +# CONFIG_NAND_ARASAN is not set
 +# CONFIG_NAND_MXIC is not set
 +CONFIG_NAND_ZYNQ=y
-+# CONFIG_NAND_ZYNQ_USE_BOOTLOADER1_TIMINGS is not set
++CONFIG_NAND_ZYNQ_USE_BOOTLOADER1_TIMINGS=y
 +# CONFIG_NAND_OCTEONTX is not set
 +
 +#
@@ -1080,11 +1337,97 @@ index 0000000000..d2397c5d8c
 +# CONFIG_MULTIPLEXER is not set
 +# CONFIG_BITBANGMII is not set
 +# CONFIG_MV88E6352_SWITCH is not set
++CONFIG_PHYLIB=y
++# CONFIG_PHY_ADDR_ENABLE is not set
++# CONFIG_B53_SWITCH is not set
++# CONFIG_MV88E61XX_SWITCH is not set
++# CONFIG_PHYLIB_10G is not set
++# CONFIG_PHY_ADIN is not set
++# CONFIG_PHY_AQUANTIA is not set
++# CONFIG_PHY_ATHEROS is not set
++# CONFIG_SPL_PHY_ATHEROS is not set
++# CONFIG_PHY_BROADCOM is not set
++# CONFIG_PHY_CORTINA is not set
++# CONFIG_PHY_DAVICOM is not set
++# CONFIG_PHY_ET1011C is not set
++# CONFIG_PHY_LXT is not set
++# CONFIG_PHY_MARVELL is not set
++# CONFIG_PHY_MARVELL_10G is not set
++# CONFIG_PHY_MESON_GXL is not set
++# CONFIG_PHY_MICREL is not set
++# CONFIG_PHY_MOTORCOMM is not set
++# CONFIG_PHY_MSCC is not set
++# CONFIG_PHY_NATSEMI is not set
++# CONFIG_PHY_NXP_C45_TJA11XX is not set
++# CONFIG_PHY_NXP_TJA11XX is not set
++# CONFIG_PHY_REALTEK is not set
++# CONFIG_PHY_SMSC is not set
++# CONFIG_PHY_TERANETICS is not set
++# CONFIG_PHY_TI is not set
++# CONFIG_PHY_TI_DP83867 is not set
++# CONFIG_PHY_TI_DP83869 is not set
++# CONFIG_PHY_TI_GENERIC is not set
++# CONFIG_PHY_VITESSE is not set
++CONFIG_PHY_XILINX=y
++# CONFIG_PHY_XILINX_GMII2RGMII is not set
++# CONFIG_PHY_XWAY is not set
++CONFIG_PHY_ETHERNET_ID=y
++# CONFIG_PHY_FIXED is not set
++# CONFIG_PHY_NCSI is not set
 +# CONFIG_FSL_MEMAC is not set
 +CONFIG_PHY_RESET_DELAY=0
 +# CONFIG_FSL_PFE is not set
 +CONFIG_ETH=y
++CONFIG_DM_ETH=y
++# CONFIG_DM_MDIO is not set
 +# CONFIG_DM_ETH_PHY is not set
++CONFIG_NETDEVICES=y
++# CONFIG_PHY_GIGE is not set
++# CONFIG_ALTERA_TSE is not set
++# CONFIG_BCM_SF2_ETH is not set
++# CONFIG_BCMGENET is not set
++# CONFIG_BNXT_ETH is not set
++# CONFIG_CALXEDA_XGMAC is not set
++# CONFIG_DRIVER_DM9000 is not set
++# CONFIG_DWC_ETH_QOS is not set
++# CONFIG_EEPRO100 is not set
++# CONFIG_ETH_DESIGNWARE is not set
++# CONFIG_ETH_DESIGNWARE_MESON8B is not set
++# CONFIG_ETHOC is not set
++# CONFIG_FMAN_ENET is not set
++# CONFIG_FTMAC100 is not set
++# CONFIG_FTGMAC100 is not set
++# CONFIG_MCFFEC is not set
++# CONFIG_FSLDMAFEC is not set
++# CONFIG_KS8851_MLL is not set
++# CONFIG_LITEETH is not set
++# CONFIG_MACB is not set
++# CONFIG_NET_NPCM750 is not set
++# CONFIG_PCH_GBE is not set
++# CONFIG_RGMII is not set
++# CONFIG_MII is not set
++# CONFIG_RMII is not set
++# CONFIG_PCNET is not set
++# CONFIG_QE_UEC is not set
++# CONFIG_RTL8139 is not set
++# CONFIG_SMC911X is not set
++# CONFIG_SUN7I_GMAC is not set
++# CONFIG_SUN4I_EMAC is not set
++# CONFIG_SUN8I_EMAC is not set
++# CONFIG_SH_ETHER is not set
++# CONFIG_DRIVER_TI_CPSW is not set
++# CONFIG_DRIVER_TI_EMAC is not set
++# CONFIG_DRIVER_TI_KEYSTONE_NET is not set
++# CONFIG_TULIP is not set
++# CONFIG_XILINX_AXIEMAC is not set
++# CONFIG_VSC7385_ENET is not set
++# CONFIG_XILINX_EMACLITE is not set
++CONFIG_ZYNQ_GEM=y
++# CONFIG_SYS_DPAA_QBMAN is not set
++# CONFIG_TSEC_ENET is not set
++# CONFIG_MEDIATEK_ETH is not set
++# CONFIG_HIFEMAC_ETH is not set
++# CONFIG_HIGMACV300_ETH is not set
 +# CONFIG_NVME is not set
 +# CONFIG_NVME_APPLE is not set
 +
@@ -1383,6 +1726,7 @@ index 0000000000..d2397c5d8c
 +# CONFIG_CC_OPTIMIZE_LIBS_FOR_SPEED is not set
 +# CONFIG_DYNAMIC_CRC_TABLE is not set
 +CONFIG_HAVE_PRIVATE_LIBGCC=y
++CONFIG_LIB_UUID=y
 +# CONFIG_SEMIHOSTING is not set
 +CONFIG_PRINTF=y
 +CONFIG_SPRINTF=y
@@ -1390,7 +1734,7 @@ index 0000000000..d2397c5d8c
 +CONFIG_USE_PRIVATE_LIBGCC=y
 +CONFIG_SYS_HZ=1000
 +# CONFIG_PANIC_HANG is not set
-+# CONFIG_REGEX is not set
++CONFIG_REGEX=y
 +CONFIG_LIB_RAND=y
 +# CONFIG_LIB_HW_RAND is not set
 +CONFIG_SUPPORT_ACPI=y
@@ -1411,6 +1755,7 @@ index 0000000000..d2397c5d8c
 +#
 +# Android Verified Boot
 +#
++# CONFIG_LIBAVB is not set
 +
 +#
 +# Hashing Support
@@ -1452,10 +1797,12 @@ index 0000000000..d2397c5d8c
 +#
 +# CONFIG_LIB_RATIONAL is not set
 +# CONFIG_SMBIOS_PARSER is not set
++# CONFIG_EFI_LOADER is not set
 +# CONFIG_OPTEE_LIB is not set
 +# CONFIG_OPTEE_IMAGE is not set
 +# CONFIG_BOOTM_OPTEE is not set
 +# CONFIG_TEST_FDTDEC is not set
++CONFIG_LIB_ELF=y
 +# CONFIG_LMB is not set
 +CONFIG_LMB_USE_MAX_REGIONS=y
 +CONFIG_LMB_MAX_REGIONS=16
@@ -1465,7 +1812,7 @@ index 0000000000..d2397c5d8c
 +# Testing
 +#
 +# CONFIG_UNIT_TEST is not set
-+# CONFIG_POST is not set
++CONFIG_POST=y
 +
 +#
 +# Tools options

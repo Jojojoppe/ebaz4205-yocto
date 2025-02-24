@@ -13,6 +13,8 @@ SRC_URI = "file://fsbl.elf \
 # Set the working directory
 S = "${WORKDIR}"
 
+inherit deploy
+
 # Optionally, define where u-boot.elf is deployed by u-boot-xlnx.
 # You might adjust this to match your u-boot-xlnx deploy location.
 DEPLOYDIR_U_BOOT ?= "${DEPLOY_DIR_IMAGE}"
@@ -55,8 +57,12 @@ do_install () {
 FILES_${PN} += "${sysconfdir}/bootimage"
 
 do_deploy () {
-    install -d ${DEPLOY_DIR_IMAGE}
-    cp ${WORKDIR}/BOOT.bin ${DEPLOY_DIR_IMAGE}/BOOT.bin || die "Failed to deploy BOOT.bin"
+    # install -d ${DEPLOY_DIR_IMAGE}
+    # cp ${WORKDIR}/BOOT.bin ${DEPLOY_DIR_IMAGE}/BOOT.bin || die "Failed to deploy BOOT.bin"
+    # Create a deploy directory inside the WORKDIR if it doesn’t exist
+    install -d ${DEPLOYDIR}
+    # Copy the BOOT.bin (or any file you need) from WORKDIR to DEPLOYDIR
+    cp ${WORKDIR}/BOOT.bin ${DEPLOYDIR}/BOOT.bin || die "Failed to deploy BOOT.bin"
 }
 do_deploy[nostamp] = "1"
 # Run deploy after installation.

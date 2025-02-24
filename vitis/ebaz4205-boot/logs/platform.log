@@ -1,0 +1,2265 @@
+TRACE::2025-02-24.18:00:38::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:38::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:38::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:38::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:38::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:38::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-02-24.18:00:40::SCWPlatform::Opened new HwDB with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:40::SCWWriter::formatted JSON is {
+	"platformName":	"ebaz4205-boot",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ebaz4205-boot",
+	"platHandOff":	"/home/joppe/data/projects/ebaz/vivado/boot/toplevel_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/toplevel_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2025-02-24.18:00:40::SCWWriter::formatted JSON is {
+	"platformName":	"ebaz4205-boot",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ebaz4205-boot",
+	"platHandOff":	"/home/joppe/data/projects/ebaz/vivado/boot/toplevel_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/toplevel_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ebaz4205-boot",
+	"systems":	[{
+			"systemName":	"ebaz4205-boot",
+			"systemDesc":	"ebaz4205-boot",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ebaz4205-boot"
+		}]
+}
+TRACE::2025-02-24.18:00:40::SCWPlatform::Boot application domains not present, creating them
+TRACE::2025-02-24.18:00:40::SCWDomain::checking for install qemu data   : 
+TRACE::2025-02-24.18:00:40::SCWDomain:: Using the QEMU Data from install at  : /opt/packages/xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2025-02-24.18:00:40::SCWDomain:: Using the QEMU args  from install at  : /opt/packages/xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2025-02-24.18:00:40::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:40::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:40::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:40::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:40::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:40::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:40::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:40::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:40::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:40::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:40::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:40::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:40::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2025-02-24.18:00:40::SCWPlatform::Generating the sources  .
+TRACE::2025-02-24.18:00:40::SCWBDomain::Generating boot domain sources.
+TRACE::2025-02-24.18:00:40::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2025-02-24.18:00:40::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:40::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:40::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:40::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:40::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:40::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:40::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-02-24.18:00:40::SCWMssOS::No sw design opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:40::SCWMssOS::mss does not exists at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:40::SCWMssOS::Creating sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:40::SCWMssOS::Adding the swdes entry, created swdb /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:40::SCWMssOS::updating the scw layer changes to swdes at   /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:40::SCWMssOS::Writing mss at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:40::SCWMssOS::Completed writing the mss file at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2025-02-24.18:00:40::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2025-02-24.18:00:40::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2025-02-24.18:00:40::SCWBDomain::Completed writing the mss file at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2025-02-24.18:00:47::SCWPlatform::Generating sources Done.
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-02-24.18:00:47::SCWMssOS::No sw design opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::mss exists loading the mss file  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Opened the sw design from mss  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Adding the swdes entry /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2025-02-24.18:00:47::SCWMssOS::updating the scw layer about changes
+TRACE::2025-02-24.18:00:47::SCWMssOS::Opened the sw design.  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Saving the mss changes /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Commit changes completed.
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWWriter::formatted JSON is {
+	"platformName":	"ebaz4205-boot",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ebaz4205-boot",
+	"platHandOff":	"/home/joppe/data/projects/ebaz/vivado/boot/toplevel_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/toplevel_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ebaz4205-boot",
+	"systems":	[{
+			"systemName":	"ebaz4205-boot",
+			"systemDesc":	"ebaz4205-boot",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ebaz4205-boot",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"54b88a157b58a2d29188a114ac5ca6aa",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWDomain::checking for install qemu data   : 
+TRACE::2025-02-24.18:00:47::SCWDomain:: Using the QEMU Data from install at  : /opt/packages/xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2025-02-24.18:00:47::SCWDomain:: Using the QEMU args  from install at  : /opt/packages/xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::No sw design opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::mss does not exists at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Creating sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Adding the swdes entry, created swdb /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::updating the scw layer changes to swdes at   /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Writing mss at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Completed writing the mss file at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2025-02-24.18:00:47::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2025-02-24.18:00:47::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2025-02-24.18:00:47::SCWMssOS::Completed writing the mss file at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2025-02-24.18:00:47::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Saving the mss changes /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Commit changes completed.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Saving the mss changes /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2025-02-24.18:00:47::SCWMssOS::Writing the mss file completed /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Commit changes completed.
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWWriter::formatted JSON is {
+	"platformName":	"ebaz4205-boot",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ebaz4205-boot",
+	"platHandOff":	"/home/joppe/data/projects/ebaz/vivado/boot/toplevel_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/toplevel_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ebaz4205-boot",
+	"systems":	[{
+			"systemName":	"ebaz4205-boot",
+			"systemDesc":	"ebaz4205-boot",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ebaz4205-boot",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"54b88a157b58a2d29188a114ac5ca6aa",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/ebaz4205-boot/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/ebaz4205-boot/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"197c82de785b5905b34b00917f3df8c2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2025-02-24.18:00:47::SCWPlatform::Started generating the artifacts platform ebaz4205-boot
+TRACE::2025-02-24.18:00:47::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-02-24.18:00:47::SCWPlatform::Started generating the artifacts for system configuration ebaz4205-boot
+LOG::2025-02-24.18:00:47::SCWSystem::Checking the domain zynq_fsbl
+LOG::2025-02-24.18:00:47::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2025-02-24.18:00:47::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2025-02-24.18:00:47::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2025-02-24.18:00:47::SCWSystem::Checking the domain standalone_domain
+LOG::2025-02-24.18:00:47::SCWSystem::Not a boot domain 
+LOG::2025-02-24.18:00:47::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2025-02-24.18:00:47::SCWDomain::Generating domain artifcats
+TRACE::2025-02-24.18:00:47::SCWMssOS::Generating standalone artifcats
+TRACE::2025-02-24.18:00:47::SCWMssOS::Copying the qemu file from  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/resources/ebaz4205-boot/standalone_domain/qemu_args.txt To /data/joppe/projects/ebaz/vitis/ebaz4205-boot/export/ebaz4205-boot/sw/ebaz4205-boot/qemu/
+TRACE::2025-02-24.18:00:47::SCWMssOS::Copying the qemu file from  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/resources/ebaz4205-boot/standalone_domain/qemu_args.txt To /data/joppe/projects/ebaz/vitis/ebaz4205-boot/export/ebaz4205-boot/sw/ebaz4205-boot/standalone_domain/qemu/
+TRACE::2025-02-24.18:00:47::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Completed writing the mss file at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2025-02-24.18:00:47::SCWMssOS::Mss edits present, copying mssfile into export location /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-02-24.18:00:47::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-02-24.18:00:47::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2025-02-24.18:00:47::SCWMssOS::skipping the bsp build ... 
+TRACE::2025-02-24.18:00:47::SCWMssOS::Copying to export directory.
+TRACE::2025-02-24.18:00:47::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-02-24.18:00:47::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2025-02-24.18:00:47::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2025-02-24.18:00:47::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2025-02-24.18:00:47::SCWSystem::Completed Processing the sysconfig ebaz4205-boot
+LOG::2025-02-24.18:00:47::SCWPlatform::Completed generating the artifacts for system configuration ebaz4205-boot
+TRACE::2025-02-24.18:00:47::SCWPlatform::Started preparing the platform 
+TRACE::2025-02-24.18:00:47::SCWSystem::Writing the bif file for system config ebaz4205-boot
+TRACE::2025-02-24.18:00:47::SCWSystem::dir created 
+TRACE::2025-02-24.18:00:47::SCWSystem::Writing the bif 
+TRACE::2025-02-24.18:00:47::SCWPlatform::Started writing the spfm file 
+TRACE::2025-02-24.18:00:47::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-02-24.18:00:47::SCWPlatform::Completed generating the platform
+TRACE::2025-02-24.18:00:47::SCWMssOS::Saving the mss changes /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Commit changes completed.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Saving the mss changes /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Commit changes completed.
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWWriter::formatted JSON is {
+	"platformName":	"ebaz4205-boot",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ebaz4205-boot",
+	"platHandOff":	"/home/joppe/data/projects/ebaz/vivado/boot/toplevel_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/toplevel_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ebaz4205-boot",
+	"systems":	[{
+			"systemName":	"ebaz4205-boot",
+			"systemDesc":	"ebaz4205-boot",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ebaz4205-boot",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"54b88a157b58a2d29188a114ac5ca6aa",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/ebaz4205-boot/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/ebaz4205-boot/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"197c82de785b5905b34b00917f3df8c2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-02-24.18:00:47::SCWPlatform::updated the xpfm file.
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Saving the mss changes /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Commit changes completed.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Saving the mss changes /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Commit changes completed.
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWWriter::formatted JSON is {
+	"platformName":	"ebaz4205-boot",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ebaz4205-boot",
+	"platHandOff":	"/home/joppe/data/projects/ebaz/vivado/boot/toplevel_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/toplevel_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ebaz4205-boot",
+	"systems":	[{
+			"systemName":	"ebaz4205-boot",
+			"systemDesc":	"ebaz4205-boot",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ebaz4205-boot",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"54b88a157b58a2d29188a114ac5ca6aa",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/ebaz4205-boot/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/ebaz4205-boot/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"197c82de785b5905b34b00917f3df8c2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Saving the mss changes /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Commit changes completed.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Saving the mss changes /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Commit changes completed.
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWWriter::formatted JSON is {
+	"platformName":	"ebaz4205-boot",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ebaz4205-boot",
+	"platHandOff":	"/home/joppe/data/projects/ebaz/vivado/boot/toplevel_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/toplevel_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ebaz4205-boot",
+	"systems":	[{
+			"systemName":	"ebaz4205-boot",
+			"systemDesc":	"ebaz4205-boot",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ebaz4205-boot",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"54b88a157b58a2d29188a114ac5ca6aa",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/ebaz4205-boot/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/ebaz4205-boot/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"197c82de785b5905b34b00917f3df8c2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-02-24.18:00:47::SCWMssOS::Saving the mss changes /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Commit changes completed.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Saving the mss changes /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-02-24.18:00:47::SCWMssOS::Commit changes completed.
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Opened existing hwdb toplevel_wrapper_0
+TRACE::2025-02-24.18:00:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:47::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:47::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:47::SCWWriter::formatted JSON is {
+	"platformName":	"ebaz4205-boot",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ebaz4205-boot",
+	"platHandOff":	"/home/joppe/data/projects/ebaz/vivado/boot/toplevel_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/toplevel_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ebaz4205-boot",
+	"systems":	[{
+			"systemName":	"ebaz4205-boot",
+			"systemDesc":	"ebaz4205-boot",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ebaz4205-boot",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"54b88a157b58a2d29188a114ac5ca6aa",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/ebaz4205-boot/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/ebaz4205-boot/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"197c82de785b5905b34b00917f3df8c2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-02-24.18:00:48::SCWPlatform::Clearing the existing platform
+TRACE::2025-02-24.18:00:48::SCWSystem::Clearing the existing sysconfig
+TRACE::2025-02-24.18:00:48::SCWBDomain::clearing the fsbl build
+TRACE::2025-02-24.18:00:48::SCWMssOS::Removing the swdes entry for  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:48::SCWMssOS::Removing the swdes entry for  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:48::SCWSystem::Clearing the domains completed.
+TRACE::2025-02-24.18:00:48::SCWPlatform::Clearing the opened hw db.
+TRACE::2025-02-24.18:00:48::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:48::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:48::SCWPlatform:: Platform location is /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:48::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:48::SCWPlatform::Removing the HwDB with name /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:48::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:48::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:48::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:48::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:48::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:48::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-02-24.18:00:50::SCWPlatform::Opened new HwDB with name toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWReader::Active system found as  ebaz4205-boot
+TRACE::2025-02-24.18:00:50::SCWReader::Handling sysconfig ebaz4205-boot
+TRACE::2025-02-24.18:00:50::SCWDomain::checking for install qemu data   : 
+TRACE::2025-02-24.18:00:50::SCWDomain:: Using the QEMU Data from install at  : /opt/packages/xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2025-02-24.18:00:50::SCWDomain:: Using the QEMU args  from install at  : /opt/packages/xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:50::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:50::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-02-24.18:00:50::SCWMssOS::No sw design opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS::mss exists loading the mss file  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS::Opened the sw design from mss  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS::Adding the swdes entry /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2025-02-24.18:00:50::SCWMssOS::updating the scw layer about changes
+TRACE::2025-02-24.18:00:50::SCWMssOS::Opened the sw design.  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:50::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:50::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS:: library already available in sw design:  xilffs:5.0
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:50::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:50::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2025-02-24.18:00:50::SCWMssOS::Saving the mss changes /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-02-24.18:00:50::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-02-24.18:00:50::SCWMssOS::Commit changes completed.
+TRACE::2025-02-24.18:00:50::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-02-24.18:00:50::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:50::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:50::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWReader::No isolation master present  
+TRACE::2025-02-24.18:00:50::SCWDomain::checking for install qemu data   : 
+TRACE::2025-02-24.18:00:50::SCWDomain:: Using the QEMU Data from install at  : /opt/packages/xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2025-02-24.18:00:50::SCWDomain:: Using the QEMU args  from install at  : /opt/packages/xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:50::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:50::SCWMssOS::No sw design opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS::mss exists loading the mss file  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS::Opened the sw design from mss  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS::Adding the swdes entry /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2025-02-24.18:00:50::SCWMssOS::updating the scw layer about changes
+TRACE::2025-02-24.18:00:50::SCWMssOS::Opened the sw design.  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS::Saving the mss changes /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-02-24.18:00:50::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-02-24.18:00:50::SCWMssOS::Commit changes completed.
+TRACE::2025-02-24.18:00:50::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-02-24.18:00:50::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:00:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:00:50::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:00:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:00:50::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:00:50::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:00:50::SCWReader::No isolation master present  
+LOG::2025-02-24.18:01:30::SCWPlatform::Started generating the artifacts platform ebaz4205-boot
+TRACE::2025-02-24.18:01:30::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-02-24.18:01:30::SCWPlatform::Started generating the artifacts for system configuration ebaz4205-boot
+LOG::2025-02-24.18:01:30::SCWSystem::Checking the domain zynq_fsbl
+LOG::2025-02-24.18:01:30::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2025-02-24.18:01:30::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2025-02-24.18:01:30::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2025-02-24.18:01:30::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:30::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:30::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:30::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:01:30::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:30::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:01:30::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:01:30::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:01:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:01:30::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:01:30::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:01:30::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:01:30::SCWBDomain::Completed writing the mss file at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2025-02-24.18:01:30::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-02-24.18:01:30::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2025-02-24.18:01:30::SCWBDomain::System Command Ran  cd  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl ; bash -c " make -C zynq_fsbl_bsp ; make  " 
+TRACE::2025-02-24.18:01:30::SCWBDomain::make: Entering directory '/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make --no-print-directory seq_libs
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+TRACE::2025-02-24.18:01:30::SCWBDomain::none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+TRACE::2025-02-24.18:01:30::SCWBDomain::bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2025-02-24.18:01:30::SCWBDomain::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2025-02-24.18:01:30::SCWBDomain::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2025-02-24.18:01:30::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2025-02-24.18:01:30::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:30::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:30::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2025-02-24.18:01:30::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2025-02-24.18:01:30::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_18/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_18/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2025-02-24.18:01:30::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2025-02-24.18:01:30::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_11/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2025-02-24.18:01:30::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2025-02-24.18:01:30::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_1/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:30::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:30::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_4/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2025-02-24.18:01:30::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2025-02-24.18:01:30::SCWBDomain:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:30::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:30::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_1/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-02-24.18:01:30::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-02-24.18:01:30::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/standalone_v8_1/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v8_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2025-02-24.18:01:30::SCWBDomain::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2025-02-24.18:01:30::SCWBDomain::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_12/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2025-02-24.18:01:30::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2025-02-24.18:01:30::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:30::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:30::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilffs_v5_0/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v5_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:30::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:30::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:30::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:30::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-02-24.18:01:30::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-02-24.18:01:30::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Finished building libraries sequentially.
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -j 10 --no-print-directory par_libs
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+TRACE::2025-02-24.18:01:30::SCWBDomain::none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+TRACE::2025-02-24.18:01:30::SCWBDomain::bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2025-02-24.18:01:30::SCWBDomain::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2025-02-24.18:01:30::SCWBDomain::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2025-02-24.18:01:30::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2025-02-24.18:01:30::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_18/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_11/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_1/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_4/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:30::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:30::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2025-02-24.18:01:30::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2025-02-24.18:01:30::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_18/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2025-02-24.18:01:30::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2025-02-24.18:01:30::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2025-02-24.18:01:30::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2025-02-24.18:01:30::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:30::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:30::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2025-02-24.18:01:30::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2025-02-24.18:01:30::SCWBDomain:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:30::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:30::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_1/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-02-24.18:01:30::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-02-24.18:01:30::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_12/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilffs_v5_0/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2025-02-24.18:01:30::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2025-02-24.18:01:30::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/standalone_v8_1/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:30::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:30::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v8_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2025-02-24.18:01:30::SCWBDomain::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2025-02-24.18:01:30::SCWBDomain::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v5_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:30::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:30::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:30::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:30::SCWBDomain::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+TRACE::2025-02-24.18:01:30::SCWBDomain::e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2025-02-24.18:01:30::SCWBDomain::hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_18/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2025-02-24.18:01:30::SCWBDomain::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2025-02-24.18:01:30::SCWBDomain::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_11/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-02-24.18:01:30::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-02-24.18:01:30::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-02-24.18:01:30::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-02-24.18:01:30::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-02-24.18:01:30::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-02-24.18:01:30::SCWBDomain::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_18/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-02-24.18:01:30::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-02-24.18:01:30::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_11/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-02-24.18:01:30::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-02-24.18:01:30::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_1/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_4/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-02-24.18:01:30::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-02-24.18:01:30::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2025-02-24.18:01:30::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2025-02-24.18:01:30::SCWBDomain::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-02-24.18:01:30::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-02-24.18:01:30::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/sdps_v4_1/src
+
+TRACE::2025-02-24.18:01:30::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-02-24.18:01:30::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-02-24.18:01:30::SCWBDomain::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:31::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/standalone_v8_1/src
+
+TRACE::2025-02-24.18:01:31::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v8_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2025-02-24.18:01:31::SCWBDomain::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2025-02-24.18:01:31::SCWBDomain::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:31::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_12/src
+
+TRACE::2025-02-24.18:01:31::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_12/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-02-24.18:01:31::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-02-24.18:01:31::SCWBDomain::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:31::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2025-02-24.18:01:31::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-02-24.18:01:31::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-02-24.18:01:31::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:31::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v5_0/src
+
+TRACE::2025-02-24.18:01:31::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v5_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-02-24.18:01:31::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-02-24.18:01:31::SCWBDomain::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:32::SCWBDomain::Finished building libraries parallelly.
+
+TRACE::2025-02-24.18:01:32::SCWBDomain::make --no-print-directory archive
+
+TRACE::2025-02-24.18:01:32::SCWBDomain::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/_sbrk
+TRACE::2025-02-24.18:01:32::SCWBDomain::.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/close.o ps7_cortexa
+TRACE::2025-02-24.18:01:32::SCWBDomain::9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/
+TRACE::2025-02-24.18:01:32::SCWBDomain::fstat.o ps7_cortexa9_0/lib/getentropy.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/isatty.o ps7
+TRACE::2025-02-24.18:01:32::SCWBDomain::_cortexa9_0/lib/kill.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0/lib/pri
+TRACE::2025-02-24.18:01:32::SCWBDomain::nt.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/
+TRACE::2025-02-24.18:01:32::SCWBDomain::lib/time.o ps7_cortexa9_0/lib/translation_table.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/ve
+TRACE::2025-02-24.18:01:32::SCWBDomain::ctors.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xadcps_intr.o p
+TRACE::2025-02-24.18:01:32::SCWBDomain::s7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/x
+TRACE::2025-02-24.18:01:32::SCWBDomain::devcfg.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xd
+TRACE::2025-02-24.18:01:32::SCWBDomain::evcfg_selftest.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/li
+TRACE::2025-02-24.18:01:32::SCWBDomain::b/xdmaps_hw.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xemacps.o ps7_cortexa9_
+TRACE::2025-02-24.18:01:32::SCWBDomain::0/lib/xemacps_bdring.o ps7_cortexa9_0/lib/xemacps_control.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/xemacps_hw.o ps7_
+TRACE::2025-02-24.18:01:32::SCWBDomain::cortexa9_0/lib/xemacps_intr.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/xgpiops.o ps7_cortexa9_0/lib/xgpiops_g.o ps
+TRACE::2025-02-24.18:01:32::SCWBDomain::7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xgpiop
+TRACE::2025-02-24.18:01:32::SCWBDomain::s_sinit.o ps7_cortexa9_0/lib/xil-crt0.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib/xil_c
+TRACE::2025-02-24.18:01:32::SCWBDomain::locking.o ps7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa
+TRACE::2025-02-24.18:01:32::SCWBDomain::9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xil_sleeptimer.o ps7_
+TRACE::2025-02-24.18:01:32::SCWBDomain::cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xil_testmem
+TRACE::2025-02-24.18:01:32::SCWBDomain::.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xinterrupt_wrap.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/xpl
+TRACE::2025-02-24.18:01:32::SCWBDomain::atform_info.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xscugic_g.o ps7_cortexa9_0/lib/x
+TRACE::2025-02-24.18:01:32::SCWBDomain::scugic_hw.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/xscugic_selftest.o ps7_cortexa9_0/lib/xscugic_sinit.o ps7_cort
+TRACE::2025-02-24.18:01:32::SCWBDomain::exa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xscutimer_selftest.o ps7_cortexa9_0/lib/xscutimer_si
+TRACE::2025-02-24.18:01:32::SCWBDomain::nit.o ps7_cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/xscu
+TRACE::2025-02-24.18:01:32::SCWBDomain::wdt_sinit.o ps7_cortexa9_0/lib/xsdps.o ps7_cortexa9_0/lib/xsdps_card.o ps7_cortexa9_0/lib/xsdps_g.o ps7_cortexa9_0/lib/xsdps_ho
+TRACE::2025-02-24.18:01:32::SCWBDomain::st.o ps7_cortexa9_0/lib/xsdps_options.o ps7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xuartp
+TRACE::2025-02-24.18:01:32::SCWBDomain::s.o ps7_cortexa9_0/lib/xuartps_g.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cortexa9_0/lib/xuartps_intr.o ps7_cortexa9_0/lib/xuartps
+TRACE::2025-02-24.18:01:32::SCWBDomain::_options.o ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortexa9_0/lib/xuartps_sinit.o
+
+TRACE::2025-02-24.18:01:32::SCWBDomain::Finished building libraries
+
+TRACE::2025-02-24.18:01:32::SCWBDomain::make: Leaving directory '/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2025-02-24.18:01:32::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_f
+TRACE::2025-02-24.18:01:32::SCWBDomain::sbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2025-02-24.18:01:32::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c image_mover.c -o image_mover.o -Izynq
+TRACE::2025-02-24.18:01:32::SCWBDomain::_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2025-02-24.18:01:33::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c main.c -o main.o -Izynq_fsbl_bsp/ps7_
+TRACE::2025-02-24.18:01:33::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2025-02-24.18:01:33::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2025-02-24.18:01:33::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2025-02-24.18:01:33::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_
+TRACE::2025-02-24.18:01:33::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2025-02-24.18:01:33::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2025-02-24.18:01:33::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2025-02-24.18:01:33::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_
+TRACE::2025-02-24.18:01:33::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2025-02-24.18:01:33::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c ps7_init.c -o ps7_init.o -Izynq_fsbl_
+TRACE::2025-02-24.18:01:33::SCWBDomain::bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2025-02-24.18:01:33::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_
+TRACE::2025-02-24.18:01:33::SCWBDomain::cortexa9_0/include -I.
+
+TRACE::2025-02-24.18:01:34::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_co
+TRACE::2025-02-24.18:01:34::SCWBDomain::rtexa9_0/include -I.
+
+TRACE::2025-02-24.18:01:34::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cort
+TRACE::2025-02-24.18:01:34::SCWBDomain::exa9_0/include -I.
+
+TRACE::2025-02-24.18:01:34::SCWBDomain::arm-none-eabi-gcc  -O2 -c -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -c fsbl_handoff.S -o fsbl_handoff.o -Izy
+TRACE::2025-02-24.18:01:34::SCWBDomain::nq_fsbl_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2025-02-24.18:01:34::SCWBDomain::arm-none-eabi-gcc -o fsbl.elf fsbl_handoff.o fsbl_hooks.o image_mover.o main.o md5.o nand.o nor.o pcap.o ps7_init.o qspi.o rsa.
+TRACE::2025-02-24.18:01:34::SCWBDomain::o sd.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id
+TRACE::2025-02-24.18:01:34::SCWBDomain::=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-
+TRACE::2025-02-24.18:01:34::SCWBDomain::group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                -Wl,--gc-sections -Lzynq_fsbl_bsp/ps7_
+TRACE::2025-02-24.18:01:34::SCWBDomain::cortexa9_0/lib -L./ -Tlscript.ld
+
+LOG::2025-02-24.18:01:34::SCWSystem::Checking the domain standalone_domain
+LOG::2025-02-24.18:01:34::SCWSystem::Not a boot domain 
+LOG::2025-02-24.18:01:34::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2025-02-24.18:01:34::SCWDomain::Generating domain artifcats
+TRACE::2025-02-24.18:01:34::SCWMssOS::Generating standalone artifcats
+TRACE::2025-02-24.18:01:34::SCWMssOS::Copying the qemu file from  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/resources/ebaz4205-boot/standalone_domain/qemu_args.txt To /data/joppe/projects/ebaz/vitis/ebaz4205-boot/export/ebaz4205-boot/sw/ebaz4205-boot/qemu/
+TRACE::2025-02-24.18:01:34::SCWMssOS::Copying the qemu file from  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/resources/ebaz4205-boot/standalone_domain/qemu_args.txt To /data/joppe/projects/ebaz/vitis/ebaz4205-boot/export/ebaz4205-boot/sw/ebaz4205-boot/standalone_domain/qemu/
+TRACE::2025-02-24.18:01:34::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-02-24.18:01:34::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:34::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:34::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:34::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:01:34::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:34::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:01:34::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:01:34::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:01:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:01:34::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:01:34::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:01:34::SCWMssOS::Completed writing the mss file at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2025-02-24.18:01:34::SCWMssOS::Mss edits present, copying mssfile into export location /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:01:34::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2025-02-24.18:01:34::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2025-02-24.18:01:34::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2025-02-24.18:01:34::SCWMssOS::doing bsp build ... 
+TRACE::2025-02-24.18:01:34::SCWMssOS::System Command Ran  cd  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2025-02-24.18:01:34::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -j 10 --no-print-directory par_libs
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-
+TRACE::2025-02-24.18:01:34::SCWMssOS::none-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-a
+TRACE::2025-02-24.18:01:34::SCWMssOS::bi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-no
+TRACE::2025-02-24.18:01:34::SCWMssOS::ne-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+TRACE::2025-02-24.18:01:34::SCWMssOS::=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_18/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2025-02-24.18:01:34::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2025-02-24.18:01:34::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:34::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:34::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_11/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2025-02-24.18:01:34::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2025-02-24.18:01:34::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_18/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2025-02-24.18:01:34::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2025-02-24.18:01:34::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_1/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_11/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2025-02-24.18:01:34::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2025-02-24.18:01:34::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:34::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:34::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_4/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2025-02-24.18:01:34::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2025-02-24.18:01:34::SCWMssOS:: -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:34::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:34::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_1/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/standalone_v8_1/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-02-24.18:01:34::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-02-24.18:01:34::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v8_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2025-02-24.18:01:34::SCWMssOS::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2025-02-24.18:01:34::SCWMssOS::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_12/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_12/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2025-02-24.18:01:34::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2025-02-24.18:01:34::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2025-02-24.18:01:34::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2025-02-24.18:01:34::SCWMssOS::nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+TRACE::2025-02-24.18:01:34::SCWMssOS::e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2025-02-24.18:01:34::SCWMssOS::hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-
+TRACE::2025-02-24.18:01:34::SCWMssOS::eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=ha
+TRACE::2025-02-24.18:01:34::SCWMssOS::rd -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_18/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-02-24.18:01:34::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-02-24.18:01:34::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-02-24.18:01:34::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-02-24.18:01:34::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_1/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_11/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_4/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2025-02-24.18:01:34::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2025-02-24.18:01:34::SCWMssOS::artfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_18/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-02-24.18:01:34::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-02-24.18:01:34::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_11/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-02-24.18:01:34::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-02-24.18:01:34::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v5_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-02-24.18:01:34::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-02-24.18:01:34::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2025-02-24.18:01:34::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2025-02-24.18:01:34::SCWMssOS::ostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-02-24.18:01:34::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-02-24.18:01:34::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/sdps_v4_1/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/standalone_v8_1/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2025-02-24.18:01:34::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2025-02-24.18:01:34::SCWMssOS::rtfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v8_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+TRACE::2025-02-24.18:01:34::SCWMssOS::i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+TRACE::2025-02-24.18:01:34::SCWMssOS::-nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_12/src
+
+TRACE::2025-02-24.18:01:34::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_12/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2025-02-24.18:01:34::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2025-02-24.18:01:34::SCWMssOS::startfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2025-02-24.18:01:35::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2025-02-24.18:01:35::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2025-02-24.18:01:35::SCWMssOS::tartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-02-24.18:01:36::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2025-02-24.18:01:36::SCWMssOS::make --no-print-directory archive
+
+TRACE::2025-02-24.18:01:36::SCWMssOS::arm-none-eabi-ar -r  ps7_cortexa9_0/lib/libxil.a ps7_cortexa9_0/lib/_exit.o ps7_cortexa9_0/lib/_open.o ps7_cortexa9_0/lib/_sbrk
+TRACE::2025-02-24.18:01:36::SCWMssOS::.o ps7_cortexa9_0/lib/abort.o ps7_cortexa9_0/lib/asm_vectors.o ps7_cortexa9_0/lib/boot.o ps7_cortexa9_0/lib/close.o ps7_cortexa
+TRACE::2025-02-24.18:01:36::SCWMssOS::9_0/lib/cpputest_time.o ps7_cortexa9_0/lib/cpu_init.o ps7_cortexa9_0/lib/errno.o ps7_cortexa9_0/lib/fcntl.o ps7_cortexa9_0/lib/
+TRACE::2025-02-24.18:01:36::SCWMssOS::fstat.o ps7_cortexa9_0/lib/getentropy.o ps7_cortexa9_0/lib/getpid.o ps7_cortexa9_0/lib/inbyte.o ps7_cortexa9_0/lib/isatty.o ps7
+TRACE::2025-02-24.18:01:36::SCWMssOS::_cortexa9_0/lib/kill.o ps7_cortexa9_0/lib/lseek.o ps7_cortexa9_0/lib/open.o ps7_cortexa9_0/lib/outbyte.o ps7_cortexa9_0/lib/pri
+TRACE::2025-02-24.18:01:36::SCWMssOS::nt.o ps7_cortexa9_0/lib/putnum.o ps7_cortexa9_0/lib/read.o ps7_cortexa9_0/lib/sbrk.o ps7_cortexa9_0/lib/sleep.o ps7_cortexa9_0/
+TRACE::2025-02-24.18:01:36::SCWMssOS::lib/time.o ps7_cortexa9_0/lib/translation_table.o ps7_cortexa9_0/lib/unlink.o ps7_cortexa9_0/lib/usleep.o ps7_cortexa9_0/lib/ve
+TRACE::2025-02-24.18:01:36::SCWMssOS::ctors.o ps7_cortexa9_0/lib/write.o ps7_cortexa9_0/lib/xadcps.o ps7_cortexa9_0/lib/xadcps_g.o ps7_cortexa9_0/lib/xadcps_intr.o p
+TRACE::2025-02-24.18:01:36::SCWMssOS::s7_cortexa9_0/lib/xadcps_selftest.o ps7_cortexa9_0/lib/xadcps_sinit.o ps7_cortexa9_0/lib/xcoresightpsdcc.o ps7_cortexa9_0/lib/x
+TRACE::2025-02-24.18:01:36::SCWMssOS::devcfg.o ps7_cortexa9_0/lib/xdevcfg_g.o ps7_cortexa9_0/lib/xdevcfg_hw.o ps7_cortexa9_0/lib/xdevcfg_intr.o ps7_cortexa9_0/lib/xd
+TRACE::2025-02-24.18:01:36::SCWMssOS::evcfg_selftest.o ps7_cortexa9_0/lib/xdevcfg_sinit.o ps7_cortexa9_0/lib/xdmaps.o ps7_cortexa9_0/lib/xdmaps_g.o ps7_cortexa9_0/li
+TRACE::2025-02-24.18:01:36::SCWMssOS::b/xdmaps_hw.o ps7_cortexa9_0/lib/xdmaps_selftest.o ps7_cortexa9_0/lib/xdmaps_sinit.o ps7_cortexa9_0/lib/xemacps.o ps7_cortexa9_
+TRACE::2025-02-24.18:01:36::SCWMssOS::0/lib/xemacps_bdring.o ps7_cortexa9_0/lib/xemacps_control.o ps7_cortexa9_0/lib/xemacps_g.o ps7_cortexa9_0/lib/xemacps_hw.o ps7_
+TRACE::2025-02-24.18:01:36::SCWMssOS::cortexa9_0/lib/xemacps_intr.o ps7_cortexa9_0/lib/xemacps_sinit.o ps7_cortexa9_0/lib/xgpiops.o ps7_cortexa9_0/lib/xgpiops_g.o ps
+TRACE::2025-02-24.18:01:36::SCWMssOS::7_cortexa9_0/lib/xgpiops_hw.o ps7_cortexa9_0/lib/xgpiops_intr.o ps7_cortexa9_0/lib/xgpiops_selftest.o ps7_cortexa9_0/lib/xgpiop
+TRACE::2025-02-24.18:01:36::SCWMssOS::s_sinit.o ps7_cortexa9_0/lib/xil-crt0.o ps7_cortexa9_0/lib/xil_assert.o ps7_cortexa9_0/lib/xil_cache.o ps7_cortexa9_0/lib/xil_c
+TRACE::2025-02-24.18:01:36::SCWMssOS::locking.o ps7_cortexa9_0/lib/xil_exception.o ps7_cortexa9_0/lib/xil_mem.o ps7_cortexa9_0/lib/xil_misc_psreset_api.o ps7_cortexa
+TRACE::2025-02-24.18:01:36::SCWMssOS::9_0/lib/xil_mmu.o ps7_cortexa9_0/lib/xil_printf.o ps7_cortexa9_0/lib/xil_sleepcommon.o ps7_cortexa9_0/lib/xil_sleeptimer.o ps7_
+TRACE::2025-02-24.18:01:36::SCWMssOS::cortexa9_0/lib/xil_spinlock.o ps7_cortexa9_0/lib/xil_testcache.o ps7_cortexa9_0/lib/xil_testio.o ps7_cortexa9_0/lib/xil_testmem
+TRACE::2025-02-24.18:01:36::SCWMssOS::.o ps7_cortexa9_0/lib/xil_util.o ps7_cortexa9_0/lib/xinterrupt_wrap.o ps7_cortexa9_0/lib/xl2cc_counter.o ps7_cortexa9_0/lib/xpl
+TRACE::2025-02-24.18:01:36::SCWMssOS::atform_info.o ps7_cortexa9_0/lib/xpm_counter.o ps7_cortexa9_0/lib/xscugic.o ps7_cortexa9_0/lib/xscugic_g.o ps7_cortexa9_0/lib/x
+TRACE::2025-02-24.18:01:36::SCWMssOS::scugic_hw.o ps7_cortexa9_0/lib/xscugic_intr.o ps7_cortexa9_0/lib/xscugic_selftest.o ps7_cortexa9_0/lib/xscugic_sinit.o ps7_cort
+TRACE::2025-02-24.18:01:36::SCWMssOS::exa9_0/lib/xscutimer.o ps7_cortexa9_0/lib/xscutimer_g.o ps7_cortexa9_0/lib/xscutimer_selftest.o ps7_cortexa9_0/lib/xscutimer_si
+TRACE::2025-02-24.18:01:36::SCWMssOS::nit.o ps7_cortexa9_0/lib/xscuwdt.o ps7_cortexa9_0/lib/xscuwdt_g.o ps7_cortexa9_0/lib/xscuwdt_selftest.o ps7_cortexa9_0/lib/xscu
+TRACE::2025-02-24.18:01:36::SCWMssOS::wdt_sinit.o ps7_cortexa9_0/lib/xsdps.o ps7_cortexa9_0/lib/xsdps_card.o ps7_cortexa9_0/lib/xsdps_g.o ps7_cortexa9_0/lib/xsdps_ho
+TRACE::2025-02-24.18:01:36::SCWMssOS::st.o ps7_cortexa9_0/lib/xsdps_options.o ps7_cortexa9_0/lib/xsdps_sinit.o ps7_cortexa9_0/lib/xtime_l.o ps7_cortexa9_0/lib/xuartp
+TRACE::2025-02-24.18:01:36::SCWMssOS::s.o ps7_cortexa9_0/lib/xuartps_g.o ps7_cortexa9_0/lib/xuartps_hw.o ps7_cortexa9_0/lib/xuartps_intr.o ps7_cortexa9_0/lib/xuartps
+TRACE::2025-02-24.18:01:36::SCWMssOS::_options.o ps7_cortexa9_0/lib/xuartps_selftest.o ps7_cortexa9_0/lib/xuartps_sinit.o
+
+TRACE::2025-02-24.18:01:36::SCWMssOS::Finished building libraries
+
+TRACE::2025-02-24.18:01:36::SCWMssOS::Copying to export directory.
+TRACE::2025-02-24.18:01:36::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-02-24.18:01:36::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-02-24.18:01:36::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2025-02-24.18:01:36::SCWSystem::Completed Processing the sysconfig ebaz4205-boot
+LOG::2025-02-24.18:01:36::SCWPlatform::Completed generating the artifacts for system configuration ebaz4205-boot
+TRACE::2025-02-24.18:01:36::SCWPlatform::Started preparing the platform 
+TRACE::2025-02-24.18:01:36::SCWSystem::Writing the bif file for system config ebaz4205-boot
+TRACE::2025-02-24.18:01:36::SCWSystem::dir created 
+TRACE::2025-02-24.18:01:36::SCWSystem::Writing the bif 
+TRACE::2025-02-24.18:01:36::SCWPlatform::Started writing the spfm file 
+TRACE::2025-02-24.18:01:36::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-02-24.18:01:36::SCWPlatform::Completed generating the platform
+TRACE::2025-02-24.18:01:36::SCWMssOS::Saving the mss changes /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:01:36::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-02-24.18:01:36::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-02-24.18:01:36::SCWMssOS::Commit changes completed.
+TRACE::2025-02-24.18:01:36::SCWMssOS::Saving the mss changes /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:01:36::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-02-24.18:01:36::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-02-24.18:01:36::SCWMssOS::Commit changes completed.
+TRACE::2025-02-24.18:01:36::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:36::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:36::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:36::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:01:36::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:36::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:01:36::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:01:36::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:01:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:01:36::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:01:36::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:01:36::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2025-02-24.18:01:36::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:36::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:36::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:36::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:01:36::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:36::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:01:36::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:01:36::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:01:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:01:36::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:01:36::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:01:36::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:01:36::SCWWriter::formatted JSON is {
+	"platformName":	"ebaz4205-boot",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ebaz4205-boot",
+	"platHandOff":	"/home/joppe/data/projects/ebaz/vivado/boot/toplevel_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/toplevel_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ebaz4205-boot",
+	"systems":	[{
+			"systemName":	"ebaz4205-boot",
+			"systemDesc":	"ebaz4205-boot",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ebaz4205-boot",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"54b88a157b58a2d29188a114ac5ca6aa",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/ebaz4205-boot/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/ebaz4205-boot/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"197c82de785b5905b34b00917f3df8c2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-02-24.18:01:36::SCWPlatform::updated the xpfm file.
+TRACE::2025-02-24.18:01:36::SCWPlatform::Trying to open the hw design at /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:36::SCWPlatform::DSA given /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:36::SCWPlatform::DSA absoulate path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:36::SCWPlatform::DSA directory /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw
+TRACE::2025-02-24.18:01:36::SCWPlatform:: Platform Path /data/joppe/projects/ebaz/vitis/ebaz4205-boot/hw/toplevel_wrapper.xsa
+TRACE::2025-02-24.18:01:36::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-02-24.18:01:36::SCWPlatform::Trying to set the existing hwdb with name toplevel_wrapper_1
+TRACE::2025-02-24.18:01:36::SCWPlatform::Opened existing hwdb toplevel_wrapper_1
+TRACE::2025-02-24.18:01:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-02-24.18:01:36::SCWMssOS::Checking the sw design at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2025-02-24.18:01:36::SCWMssOS::DEBUG:  swdes dump  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/data/joppe/projects/ebaz/vitis/ebaz4205-boot/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2025-02-24.18:01:36::SCWMssOS::Sw design exists and opened at  /data/joppe/projects/ebaz/vitis/ebaz4205-boot/ps7_cortexa9_0/standalone_domain/bsp/system.mss

@@ -7457,6 +7457,7 @@ void perf_reset_and_start_timer()
 {
   	    perf_reset_clock();
 	    perf_start_clock();
+        #error test123
 }
 
 
